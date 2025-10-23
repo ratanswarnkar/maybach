@@ -12,7 +12,7 @@
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
             <a class="menubar" href="#menu"><img src="uploadsmobile-dark-nav-icon.svg" alt=""></a>
-            <a class="mobile_logo" href="index.php"><img src="uploadslogo.png" alt=""></a>
+            <a class="mobile_logo" href="index.php"><img src="uploads/logo.jpg" alt=""></a>
        <!--     <a href="page-login.php"><span class="icon fz18 fa fa-user-circle"></span></a>  -->        </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
      
   </div>
     
-  
+<!--   
   <section class="advance-search-menu bg-white position-relative default-box-shadow2 pt15 pb5 bb1 dn-992">
       <div class="container-fluid">
           
@@ -55,7 +55,7 @@
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                       <div class="advance-content-style1">
                         <div class="row">
-						 <form action="searchresultpro.php" method="get" class="form-search position-relative" accept-charset="utf-8">
+						 <form action="{{ asset('projects')}}" method="get" class="form-search position-relative" accept-charset="utf-8">
                           <div class="col-md-3 col-lg-3">
                             <div class="advance-search-field position-relative text-start">
                              
@@ -151,10 +151,10 @@
   
                           <div class="col-md-3 col-lg-3">
                             <div class="d-flex align-items-center justify-content-start justify-content-md-center mt-3 mt-md-0">
-                              <button class="advance-search-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="fa fa-sliders"></span> Advanced</button>
+                         
                               <button type="submit" class="advance-search-icon ud-btn btn-thm ms-4"><span class="fa fa-search"></span></button>
                             </div>
-                          </div>
+                          </div> 
 						  </form>
                         </div>
 						</div>
@@ -173,7 +173,7 @@
 				
 				
 <div class="advance-feature-modal">
-    <!-- Modal -->
+     Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -455,17 +455,17 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=234&title=Serene Garden 2BHK"> <img class="w-100" src="agentCP/../agentCP/uploads/9aee8bab395475c97bddda304a83d90519e56da449e981f52ab0b7ad83650acf01 Priscott Serene Garden.jpg" alt=""></a>
+                     <a href="#"> <img class="w-100" src="uploads/p1.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-12-30</div>                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=234&title=Serene Garden 2BHK">Serene Garden 2BHK</a></h6>
+                      <h6 class="list-title"><a href="#">Serene Garden 2BHK</a></h6>
                       <p class="list-text">Discovery Gardens</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=234&title=Serene Garden 2BHK">Off Plan</a></span>
+                        <span class="project-type"><a href="">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=234&title=Serene Garden 2BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Serene Garden 2BHK</a>
+                          <a href="" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Serene Garden 2BHK</a>
                          
                         </div>
                       </div>
@@ -477,7 +477,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=235&title=Serene Garden 1BHK"> <img class="w-100" src="agentCP/../agentCP/uploads/19e56da449e981f52ab0b7ad83650acf01 Priscott Serene Garden.jpg" alt=""></a>
+                     <a href="project-page.php?id=235&title=Serene Garden 1BHK"> <img class="w-100" src="uploads/p2.png" alt=""></a>
                       <div class="list-price top">Handover: 2025-12-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
@@ -501,7 +501,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=236&title=Serene Garden Studio"> <img class="w-100" src="agentCP/../agentCP/uploads/1ee1ac3e336ebd14a6b16020d9708d3501 Priscott Serene Garden.jpg" alt=""></a>
+                     <a href="project-page.php?id=236&title=Serene Garden Studio"> <img class="w-100" src="uploads/p3.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-12-30</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="project-page.php?id=236&title=Serene Garden Studio">Serene Garden Studio</a></h6>
@@ -523,7 +523,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=240&title=Reportage Village 4B Town House"> <img class="w-100" src="agentCP/../agentCP/uploads/2920547c89fd2010cf04278d94f603acReportage Village.jpg" alt=""></a>
+                     <a href="project-page.php?id=240&title=Reportage Village 4B Town House"> <img class="w-100" src="uploads/p4.webp" alt=""></a>
                       <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="project-page.php?id=240&title=Reportage Village 4B Town House">Reportage Village 4B Town House</a></h6>
@@ -545,7 +545,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=241&title=Reportage Village 3B Town House"> <img class="w-100" src="agentCP/../agentCP/uploads/47880494dbad82660dffd20b8efc773fReportage Village.jpg" alt=""></a>
+                     <a href="project-page.php?id=241&title=Reportage Village 3B Town House"> <img class="w-100" src="uploads/p5.webp" alt=""></a>
                       <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="project-page.php?id=241&title=Reportage Village 3B Town House">Reportage Village 3B Town House</a></h6>
@@ -567,7 +567,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=242&title=Reportage Village 2B Town House"> <img class="w-100" src="agentCP/../agentCP/uploads/65a3825fa540010bc7b2c4e23abf2473Reportage Village.jpg" alt=""></a>
+                     <a href="project-page.php?id=242&title=Reportage Village 2B Town House"> <img class="w-100" src="uploads/p6.webp" alt=""></a>
                       <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="project-page.php?id=242&title=Reportage Village 2B Town House">Reportage Village 2B Town House</a></h6>
@@ -589,7 +589,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=243&title=Alpha 1BHK"> <img class="w-100" src="agentCP/../agentCP/uploads/3082fa2f9e5577a7c3453c69a0709458Symbolic Alpha Day view.jpg" alt=""></a>
+                     <a href="project-page.php?id=243&title=Alpha 1BHK"> <img class="w-100" src="uploads/p7.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-06-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
@@ -613,7 +613,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=244&title=Alpha 2.5BHK"> <img class="w-100" src="agentCP/../agentCP/uploads/b03ae23663ac55019a1dff196cf2961fSymbolic Alpha Night view.jpg" alt=""></a>
+                     <a href="project-page.php?id=244&title=Alpha 2.5BHK"> <img class="w-100" src="uploads/p8.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-06-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
@@ -637,7 +637,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=245&title=Palm Beach Towers "> <img class="w-100" src="agentCP/../agentCP/uploads/5c41de6aea02d863e30b781bfb0ae16fNakheel Penthouse Palm View.jpg" alt=""></a>
+                     <a href="project-page.php?id=245&title=Palm Beach Towers "> <img class="w-100" src="uploads/p9.webp" alt=""></a>
                       <div class="list-price top">Handover: 2026-04-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
@@ -661,7 +661,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=246&title=Dolce Vita Executive"> <img class="w-100" src="agentCP/../agentCP/uploads/c34cdf38fdba5ba0c0584bf3524b7a43Vincitore Dolce vista.jpg" alt=""></a>
+                     <a href="project-page.php?id=246&title=Dolce Vita Executive"> <img class="w-100" src="uploads/p10.webp" alt=""></a>
                       <div class="list-price top">Handover: 2026-06-30</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="project-page.php?id=246&title=Dolce Vita Executive">Dolce Vita Executive</a></h6>
@@ -683,7 +683,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=247&title=Dolce Vita Premium Club"> <img class="w-100" src="agentCP/../agentCP/uploads/b6acfeeaf98c9134da9ecbddabd186b8Vincitore Dolce vista.jpg" alt=""></a>
+                     <a href="project-page.php?id=247&title=Dolce Vita Premium Club"> <img class="w-100" src="uploads/p11.webp" alt=""></a>
                       <div class="list-price top">Handover: 2026-06-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
@@ -707,7 +707,7 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=248&title=Wilton Park Studio"> <img class="w-100" src="agentCP/../agentCP/uploads/3dba252d91354944727cc0ece6b8057eElington.jpg" alt=""></a>
+                     <a href="project-page.php?id=248&title=Wilton Park Studio"> <img class="w-100" src="uploads/p12.webp" alt=""></a>
                       <div class="list-price top">Handover: 2023-09-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>

@@ -167,935 +167,7 @@
                 <h6 class="hero-sub-title animate-up-1"> </h6>
                 <h2 class="hero-title animate-up-2">Invest In Your Dreams</h2>
                 
-                <!-- <p class="hero-text fz15 animate-up-3"> </p>
-                <div class="advance-search-tab mt70 mt30-md mx-auto animate-up-3"> -->
-                  <!-- <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
-                      <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Projects</button>
-                    </li>
-					<li class="nav-item" role="presentation">
-                      <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="false">Sale</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true">Rent</button>
-                    </li>
-                  
-                  </ul> -->
-                  <div class="tab-content" id="myTabContent">
-				     
-					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                      <div class="advance-content-style1">
-                        <div class="row">
-						 <!-- <form action="searchresultpro.php" method="get" class="form-search position-relative" accept-charset="utf-8">
-                          <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_category" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Property Type</option>
-                            <option value="Apartment">Apartment</option>
-                            <option value="Studio">Studio</option>
-                            <option value="Villa">Villa</option>
-                            <option value="Townhouse">Townhouse</option>
-                            <option value="Office">Office</option>
-                             <option value="Shop">Shop</option>  
-                              <option value="Penthouse">Penthouse</option>
-       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-1" aria-haspopup="listbox" aria-expanded="false" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-1" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-1" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-						  
-						  <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_city" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Select City</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Sharjah">Sharjah</option>
-                            <option value="Abu Dhabi">Abu Dhabi</option>
-                            <option value="Ajman">Ajman</option>
-                            <option value="Ras al Khaimah">Ras al Khaimah</option>  
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" title="Select City"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select City</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-2" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-2" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-						  <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select projectdropdown" style="width: 100%;"><select class="selectpicker projectdropdown" name="p_project" data-live-search="true" data-width="100%" tabindex="null">
-                      <option value="">Available Projects</option>
-					                        <option value="Serene Garden 2BHK">Serene Garden 2BHK</option>
-           
-                                  <option value="Serene Garden 1BHK">Serene Garden 1BHK</option>
-           
-                                  <option value="Serene Garden Studio">Serene Garden Studio</option>
-           
-                                  <option value="Maya 1BHK">Maya 1BHK</option>
-           
-                                  <option value="Maya 2BHK">Maya 2BHK</option>
-           
-                                  <option value="Maya Studio">Maya Studio</option>
-           
-                                  <option value="Reportage Village 4B Town House">Reportage Village 4B Town House</option>
-           
-                                  <option value="Reportage Village 3B Town House">Reportage Village 3B Town House</option>
-           
-                                  <option value="Reportage Village 2B Town House">Reportage Village 2B Town House</option>
-           
-                                  <option value="Alpha 1BHK">Alpha 1BHK</option>
-           
-                                  <option value="Alpha 2.5BHK">Alpha 2.5BHK</option>
-           
-                                  <option value="Palm Beach Towers ">Palm Beach Towers </option>
-           
-                                  <option value="Dolce Vita Executive">Dolce Vita Executive</option>
-           
-                                  <option value="Dolce Vita Premium Club">Dolce Vita Premium Club</option>
-           
-                                  <option value="Wilton Park Studio">Wilton Park Studio</option>
-           
-                                  <option value="Al Zahya">Al Zahya</option>
-           
-                                  <option value="Al Yasmeen Villa">Al Yasmeen Villa</option>
-           
-                      
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" title="Available Projects"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Available Projects</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-3" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-						   
-						   
-						  
-						  
-						  
-						  
-						  
-  
-  
-                          <div class="col-md-3 col-lg-3">
-                            <div class="d-flex align-items-center justify-content-start justify-content-md-center mt-3 mt-md-0">
-                              <button class="advance-search-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="fa fa-sliders"></span> Advanced</button>
-                              <button type="submit" class="advance-search-icon ud-btn btn-thm ms-4"><span class="fa fa-search"></span></button>
-                            </div>
-                          </div>
-						  </form> -->
-                        <!-- </div>
-						</div>
-						</div>
-				  
-                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-                      <div class="advance-content-style1">
-                        <div class="row">
-						 <form action="searchresultsale.php" method="get" class="form-search position-relative" accept-charset="utf-8">
-                          <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_category" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Property Type</option>
-                            <option value="Apartment">Apartment</option>
-                            <option value="Studio">Studio</option>
-                            <option value="Villa">Villa</option>
-                            <option value="Townhouse">Townhouse</option>
-                            <option value="Office">Office</option>
-                             <option value="Shop">Shop</option>   
-                              <option value="Penthouse">Penthouse</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-4" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-4" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-						  
-						  <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_city" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Select City</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Sharjah">Sharjah</option>
-                            <option value="Abu Dhabi">Abu Dhabi</option>
-                            <option value="Ajman">Ajman</option>
-                            <option value="Ras al Khaimah">Ras al Khaimah</option>  
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" title="Select City"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select City</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-5" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-5" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-						  
-						  
-						  <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_rooms" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="">Bedrooms</option><option value="0">0</option>
-                            <option value="Studio">Studio</option>
-                            <option value="1">1</option>
-                            <option value="1.5">1.5</option>
-                            <option value="2">2</option>
-                            <option value="2.5">2.5</option>
-                            <option value="3">3</option>
-                            <option value="3.5">3.5</option>
-                            <option value="4">4</option>
-                            <option value="4.5">4.5</option>
-                            <option value="5">5</option>
-                            <option value="5.5">5.5</option>
-                            <option value="6">6</option>
-                            <option value="6.5">6.5</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" title="Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bedrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-6" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-6" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-                          <div class="col-md-3 col-lg-3">
-                            <div class="d-flex align-items-center justify-content-start justify-content-md-center mt-3 mt-md-0">
-                              <button class="advance-search-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="fa fa-sliders"></span> Advanced</button>
-                              <button class="advance-search-icon ud-btn btn-thm ms-4" type="submit"><span class="fa fa-search"></span></button>
-                            </div>
-                          </div>
-						  </form>
-                        </div>
-                      </div>
-                    </div>
-					
-					
-                    <div class="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                      <div class="advance-content-style1">
-                        <div class="row">
-						 <form action="searchresultrent.php" method="get" class="form-search position-relative" accept-charset="utf-8">
-                          <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_category" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Property Type</option>
-                            <option value="Apartment">Apartment</option>
-                            <option value="Studio">Studio</option>
-                            <option value="Villa">Villa</option>
-                            <option value="Townhouse">Townhouse</option>
-                            <option value="Office">Office</option>
-                             <option value="Shop">Shop</option>  
-                              <option value="Penthouse">Penthouse</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-7" aria-haspopup="listbox" aria-expanded="false" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-7" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-7" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-						  
-						  <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_city" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Select City</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Sharjah">Sharjah</option>
-                            <option value="Abu Dhabi">Abu Dhabi</option>
-                            <option value="Ajman">Ajman</option>
-                            <option value="Ras al Khaimah">Ras al Khaimah</option>  
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-8" aria-haspopup="listbox" aria-expanded="false" title="Select City"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select City</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-8" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-8" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-						  
-						  
-						  <div class="col-md-3 col-lg-3">
-                            <div class="advance-search-field position-relative text-start">
-                             
-                                <div class="box-search">
-                                <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_rooms" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="">Bedrooms</option><option value="0">0</option>
-                            <option value="Studio">Studio</option>
-                            <option value="1">1</option>
-                            <option value="1.5">1.5</option>
-                            <option value="2">2</option>
-                            <option value="2.5">2.5</option>
-                            <option value="3">3</option>
-                            <option value="3.5">3.5</option>
-                            <option value="4">4</option>
-                            <option value="4.5">4.5</option>
-                            <option value="5">5</option>
-                            <option value="5.5">5.5</option>
-                            <option value="6">6</option>
-                            <option value="6.5">6.5</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-9" aria-haspopup="listbox" aria-expanded="false" title="Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bedrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-9" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-9" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                                </div>
-                              
-                            </div>
-                          </div>
-                          <div class="col-md-3 col-lg-3">
-                            <div class="d-flex align-items-center justify-content-start justify-content-md-center mt-3 mt-md-0">
-                              <button class="advance-search-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="fa fa-sliders"></span> Advanced</button>
-                              <button class="advance-search-icon ud-btn btn-thm ms-4" type="submit"><span class="fa fa-search"></span></button>
-                            </div>
-                          </div>
-						  </form>
-                        </div>
-                      </div>
-						</div>
-						
-						
-                    
-                  </div>              
-                </div>
-				
-				
-				
-				
-<div class="advance-feature-modal">
-     Modal -->
-    <!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-header pl30 pr30" style="padding: 10px 0;">
-            <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
-                      <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="project-tab" data-bs-toggle="tab" data-bs-target="#project" type="button" role="tab" aria-controls="project" aria-selected="true">Projects</button>
-                    </li>
-					<li class="nav-item" role="presentation">
-                      <button class="nav-link " id="sale-tab" data-bs-toggle="tab" data-bs-target="#sale" type="button" role="tab" aria-controls="sale" aria-selected="false">Sale</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="rent-tab" data-bs-toggle="tab" data-bs-target="#rent" type="button" role="tab" aria-controls="rent" aria-selected="false">Rent</button>
-                    </li>
-                  
-                  </ul>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-		  
-				  <div class="tab-content" id="myTabContent">
-				     
-					<div class="tab-pane fade show active" id="project" role="tabpanel" aria-labelledby="project-tab">
-          <form action="searchresultpro.php" method="get" class="form-search position-relative" accept-charset="utf-8">
-          <div class="modal-body pb-0">
-             <div class="row">
-			  <div class="col-sm-6">
-                <div class="widget-wrapper">
-                 
-                   <div class="form-style2 input-group">
-                    <div class="dropdown bootstrap-select projectdropdown" style="width: 100%;"><select class="selectpicker projectdropdown" name="p_project" data-live-search="true" data-width="100%" tabindex="null">
-                      <option value="">Available Projects</option>
-					                        <option value="Serene Garden 2BHK">Serene Garden 2BHK</option>
-           
-                                  <option value="Serene Garden 1BHK">Serene Garden 1BHK</option>
-           
-                                  <option value="Serene Garden Studio">Serene Garden Studio</option>
-           
-                                  <option value="Maya 1BHK">Maya 1BHK</option>
-           
-                                  <option value="Maya 2BHK">Maya 2BHK</option>
-           
-                                  <option value="Maya Studio">Maya Studio</option>
-           
-                                  <option value="Reportage Village 4B Town House">Reportage Village 4B Town House</option>
-           
-                                  <option value="Reportage Village 3B Town House">Reportage Village 3B Town House</option>
-           
-                                  <option value="Reportage Village 2B Town House">Reportage Village 2B Town House</option>
-           
-                                  <option value="Alpha 1BHK">Alpha 1BHK</option>
-           
-                                  <option value="Alpha 2.5BHK">Alpha 2.5BHK</option>
-           
-                                  <option value="Palm Beach Towers ">Palm Beach Towers </option>
-           
-                                  <option value="Dolce Vita Executive">Dolce Vita Executive</option>
-           
-                                  <option value="Dolce Vita Premium Club">Dolce Vita Premium Club</option>
-           
-                                  <option value="Wilton Park Studio">Wilton Park Studio</option>
-           
-                                  <option value="Al Zahya">Al Zahya</option>
-           
-                                  <option value="Al Yasmeen Villa">Al Yasmeen Villa</option>
-           
-                      
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-10" aria-haspopup="listbox" aria-expanded="false" title="Available Projects"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Available Projects</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-10" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-10" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-			  
-			  <div class="col-sm-6">
-                <div class="widget-wrapper">
-                   
-                   <div class="form-style2 input-group" style="border: 1px solid #ccc;height: 48px;border-radius: 10px;padding: 10px 15px;">
-                  Handover Date <input type="date" name="p_handover" style="float: right;position: absolute;right: 10px;top: 7px;border: none;" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                 
-                  <div class="form-style2 input-group">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_category" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Property Type</option>
-                            <option value="Apartment">Apartment</option>
-                            <option value="Studio">Studio</option>
-                            <option value="Villa">Villa</option>
-                            <option value="Townhouse">Townhouse</option>
-                            <option value="Office">Office</option>
-                             <option value="Shop">Shop</option>   
-                              <option value="Penthouse">Penthouse</option>
-       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-11" aria-haspopup="listbox" aria-expanded="false" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-11" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-11" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                
-                  <div class="form-style2">
-                   
-					  <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_city" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Select City</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Sharjah">Sharjah</option>
-                            <option value="Abu Dhabi">Abu Dhabi</option>
-                            <option value="Ajman">Ajman</option>
-                            <option value="Ras al Khaimah">Ras al Khaimah</option>  
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-12" aria-haspopup="listbox" aria-expanded="false" title="Select City"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select City</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-12" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-12" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-           <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_rooms" data-live-search="true" data-width="100%" tabindex="null">
-                    
-                            <option value="" seleted="">Select No. of Bedrooms</option>
-                            <option value="0">0</option>
-                            <option value="Studio">Studio</option>
-                            <option value="1">1</option>
-                            <option value="1.5">1.5</option>
-                            <option value="2">2</option>
-                            <option value="2.5">2.5</option>
-                            <option value="3">3</option>
-                            <option value="3.5">3.5</option>
-                            <option value="4">4</option>
-                            <option value="4.5">4.5</option>
-                            <option value="5">5</option>
-                            <option value="5.5">5.5</option>
-                            <option value="6">6</option>
-                            <option value="6.5">6.5</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-13" aria-haspopup="listbox" aria-expanded="false" title="Select No. of Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select No. of Bedrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-13" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-13" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                     <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_baths" data-live-search="true" data-width="100%" tabindex="null">
-                  
-                            <option value="" seleted="">Select No. of Bathrooms</option>
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-14" aria-haspopup="listbox" aria-expanded="false" title="Select No. of Bathrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select No. of Bathrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-14" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-14" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                
-                  <div class="form-style2 input-group">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_developer" data-live-search="true" data-width="100%">
-                      <option value="">Select Developer</option>
-                       <option value="ARADA">ARADA</option>   
-<option value="ALDAR">ALDAR</option> 
-<option value="Al Hamra">Al Hamra</option>
-<option value="Ajmal Makan">Ajmal Makan</option>
-<option value="AZIZI">AZIZI</option> 
-<option value="BINGHATTI">BINGHATTI</option> 
-<option value="DAMAC">DAMAC</option>
-<option value="Deyaar">Deyaar</option>
-<option value="DANUBE">DANUBE</option>
-<option value="DMCC">DMCC</option>
-<option value="DUBAI PROPERTIES">DUBAI PROPERTIES</option>
-<option value="ELLINGTON">ELLINGTON</option>   
-<option value="EMAAR">EMAAR</option>  
-<option value="Empire Residence">Empire Residence</option>
-<option value="FAKHRUDDIN">FAKHRUDDIN</option> 
-<option value="MAG">MAG</option>  
-<option value="MAYA">MAYA</option> 
-<option value="Me Do Ee">Me Do Ee</option>
-<option value="NAKHEEL">NAKHEEL</option> 
-<option value="NSHAMA">NSHAMA</option>
-<option value="OMNIYAT">OMNIYAT</option>
-<option value="OCTA">OCTA</option>
-<option value="Prescott">Prescott</option>
-<option value="REPORTAGE">REPORTAGE</option>   
-<option value="SAMANA">SAMANA</option>            
-<option value="SOBHA">SOBHA</option>   
-<option value="Symbolic">Symbolic</option>
-<option value="Sotheby">Sotheby's</option>
-<option value="THE HEART OF EUROPE">THE HEART OF EUROPE</option>
-<option value="TIGER">TIGER</option>              
-<option value="VINCITORE">VINCITORE</option>
-<option value="wow (sls)">wow (sls)</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-15" aria-haspopup="listbox" aria-expanded="false" title="Select Developer"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select Developer</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-15" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-15" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                 
-                   <div class="form-style2 input-group">
-                     <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_status" data-live-search="true" data-width="100%">
-                      <option value="">Property Status</option>
-                        <option value="Ready To Move">Ready To Move</option>   
-						<option value="Off Plan">Off Plan</option> 
-						  
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-16" aria-haspopup="listbox" aria-expanded="false" title="Property Status"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Status</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-16" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-16" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-			  </div>
-			  
-             <div class="row">
-              <div class="col-lg-6">
-                <div class="widget-wrapper">
-                  
-                    <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="min_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
-                <option value="">Min. Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
-            </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-17" aria-haspopup="listbox" aria-expanded="false" title="Min. Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Min. Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-17" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-17" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                   
-                </div>
-              </div>
-			  <div class="col-lg-6">
-                <div class="widget-wrapper">
-                  
-                     <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="max_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
-                <option value="">Max Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
-            </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-18" aria-haspopup="listbox" aria-expanded="false" title="Max Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Max Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-18" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-18" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div><!-- selectpicker -->
-              <!--  </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer justify-content-between">
- 
-            <div class="btn-area">
-              <button class="ud-btn btn-dark"><span class="fa fa-search align-text-top pr10"></span>Search</button>
-            </div>
-          </div>
-		  </form>
-		  </div>
-		  
-		  <div class="tab-pane fade " id="sale" role="tabpanel" aria-labelledby="sale-tab">
-          <form action="searchresultsale.php" method="get" class="form-search position-relative" accept-charset="utf-8">
-          <div class="modal-body pb-0">
-            
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                 
-                  <div class="form-style2 input-group">
-                       <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_category" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Property Type</option>
-                            <option value="Apartment">Apartment</option>
-                            <option value="Studio">Studio</option>
-                            <option value="Villa">Villa</option>
-                            <option value="Townhouse">Townhouse</option>
-                            <option value="Office">Office</option>
-                             <option value="Shop">Shop</option>   
-                              <option value="Penthouse">Penthouse</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-19" aria-haspopup="listbox" aria-expanded="false" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-19" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-19" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                
-                  <div class="form-style2">
-                   <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_city" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Select City</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Sharjah">Sharjah</option>
-                            <option value="Abu Dhabi">Abu Dhabi</option>
-                            <option value="Ajman">Ajman</option>
-                            <option value="Ras al Khaimah">Ras al Khaimah</option>  
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-20" aria-haspopup="listbox" aria-expanded="false" title="Select City"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select City</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-20" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-20" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_rooms" data-live-search="true" data-width="100%" tabindex="null">
-                    
-                            <option value="" seleted="">Select No. of Bedrooms</option>
-                            <option value="0">0</option>
-                            <option value="Studio">Studio</option>
-                            <option value="1">1</option>
-                            <option value="1.5">1.5</option>
-                            <option value="2">2</option>
-                            <option value="2.5">2.5</option>
-                            <option value="3">3</option>
-                            <option value="3.5">3.5</option>
-                            <option value="4">4</option>
-                            <option value="4.5">4.5</option>
-                            <option value="5">5</option>
-                            <option value="5.5">5.5</option>
-                            <option value="6">6</option>
-                            <option value="6.5">6.5</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-21" aria-haspopup="listbox" aria-expanded="false" title="Select No. of Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select No. of Bedrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-21" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-21" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                     <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_baths" data-live-search="true" data-width="100%" tabindex="null">
-                  
-                            <option value="" seleted="">Select No. of Bathrooms</option>
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-22" aria-haspopup="listbox" aria-expanded="false" title="Select No. of Bathrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select No. of Bathrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-22" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-22" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                
-                  <div class="form-style2 input-group">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_developer" data-live-search="true" data-width="100%">
-                      <option value="">Select Developer</option>
-                       <option value="ARADA">ARADA</option>   
-<option value="ALDAR">ALDAR</option> 
-<option value="Al Hamra">Al Hamra</option>
-<option value="Ajmal Makan">Ajmal Makan</option>
-<option value="AZIZI">AZIZI</option> 
-<option value="BINGHATTI">BINGHATTI</option> 
-<option value="DAMAC">DAMAC</option>
-<option value="Deyaar">Deyaar</option>
-<option value="DANUBE">DANUBE</option>
-<option value="DMCC">DMCC</option>
-<option value="DUBAI PROPERTIES">DUBAI PROPERTIES</option>
-<option value="ELLINGTON">ELLINGTON</option>   
-<option value="EMAAR">EMAAR</option>  
-<option value="Empire Residence">Empire Residence</option>
-<option value="FAKHRUDDIN">FAKHRUDDIN</option> 
-<option value="MAG">MAG</option>  
-<option value="MAYA">MAYA</option> 
-<option value="Me Do Ee">Me Do Ee</option>
-<option value="NAKHEEL">NAKHEEL</option> 
-<option value="NSHAMA">NSHAMA</option>
-<option value="OMNIYAT">OMNIYAT</option>
-<option value="OCTA">OCTA</option>
-<option value="Prescott">Prescott</option>
-<option value="REPORTAGE">REPORTAGE</option>   
-<option value="SAMANA">SAMANA</option>            
-<option value="SOBHA">SOBHA</option>   
-<option value="Symbolic">Symbolic</option>
-<option value="Sotheby">Sotheby's</option>
-<option value="THE HEART OF EUROPE">THE HEART OF EUROPE</option>
-<option value="TIGER">TIGER</option>              
-<option value="VINCITORE">VINCITORE</option>
-<option value="wow (sls)">wow (sls)</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-23" aria-haspopup="listbox" aria-expanded="false" title="Select Developer"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select Developer</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-23" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-23" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                 
-                   <div class="form-style2 input-group">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_status" data-live-search="true" data-width="100%">
-                      <option value="">Property Status</option>
-                        <option value="Ready To Move">Ready To Move</option>   
-						<option value="Off Plan">Off Plan</option> 
-						  
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-24" aria-haspopup="listbox" aria-expanded="false" title="Property Status"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Status</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-24" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-24" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-			  
-			   
-			  
-			   
-            </div>
-             <div class="row">
-              <div class="col-lg-6">
-                <div class="widget-wrapper">
-                  
-                    <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="min_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
-                <option value="">Min. Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
-            </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-25" aria-haspopup="listbox" aria-expanded="false" title="Min. Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Min. Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-25" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-25" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                   
-                </div>
-              </div>
-			  <div class="col-lg-6">
-                <div class="widget-wrapper">
-                  
-                     <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="max_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
-                <option value="">Max Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
-            </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-26" aria-haspopup="listbox" aria-expanded="false" title="Max Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Max Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-26" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-26" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div><!-- selectpicker -->
-               <!-- </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer justify-content-between">
- 
-            <div class="btn-area">
-              <button class="ud-btn btn-dark"><span class="fa fa-search align-text-top pr10"></span>Search</button>
-            </div>
-          </div>
-		  </form>
-		  </div>
-		  
-		  <div class="tab-pane fade " id="rent" role="tabpanel" aria-labelledby="rent-tab">
-          <form action="searchresultrent.php" method="get" class="form-search position-relative" accept-charset="utf-8">
-          <div class="modal-body pb-0">
-            
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                 
-                  <div class="form-style2 input-group">
-                       <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_category" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Property Type</option>
-                            <option value="Apartment">Apartment</option>
-                            <option value="Studio">Studio</option>
-                            <option value="Villa">Villa</option>
-                            <option value="Townhouse">Townhouse</option>
-                            <option value="Office">Office</option>
-                             <option value="Shop">Shop</option>   
-                              <option value="Penthouse">Penthouse</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-27" aria-haspopup="listbox" aria-expanded="false" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-27" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-27" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                
-                  <div class="form-style2">
-                   <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_city" data-live-search="true" data-width="100%" tabindex="null">
-                       <option value="" seleted="">Select City</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Sharjah">Sharjah</option>
-                            <option value="Abu Dhabi">Abu Dhabi</option>
-                            <option value="Ajman">Ajman</option>
-                            <option value="Ras al Khaimah">Ras al Khaimah</option>  
-                       
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-28" aria-haspopup="listbox" aria-expanded="false" title="Select City"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select City</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-28" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-28" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_rooms" data-live-search="true" data-width="100%" tabindex="null">
-                    
-                            <option value="" seleted="">Select No. of Bedrooms</option>
-                            <option value="0">0</option>
-                            <option value="Studio">Studio</option>
-                            <option value="1">1</option>
-                            <option value="1.5">1.5</option>
-                            <option value="2">2</option>
-                            <option value="2.5">2.5</option>
-                            <option value="3">3</option>
-                            <option value="3.5">3.5</option>
-                            <option value="4">4</option>
-                            <option value="4.5">4.5</option>
-                            <option value="5">5</option>
-                            <option value="5.5">5.5</option>
-                            <option value="6">6</option>
-                            <option value="6.5">6.5</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-29" aria-haspopup="listbox" aria-expanded="false" title="Select No. of Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select No. of Bedrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-29" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-29" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                     <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_baths" data-live-search="true" data-width="100%" tabindex="null">
-                  
-                            <option value="" seleted="">Select No. of Bathrooms</option>
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-30" aria-haspopup="listbox" aria-expanded="false" title="Select No. of Bathrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select No. of Bathrooms</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-30" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-30" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                
-                  <div class="form-style2 input-group">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_developer" data-live-search="true" data-width="100%">
-                      <option value="">Select Developer</option>
-                       <option value="ARADA">ARADA</option>   
-<option value="ALDAR">ALDAR</option> 
-<option value="Al Hamra">Al Hamra</option>
-<option value="Ajmal Makan">Ajmal Makan</option>
-<option value="AZIZI">AZIZI</option> 
-<option value="BINGHATTI">BINGHATTI</option> 
-<option value="DAMAC">DAMAC</option>
-<option value="Deyaar">Deyaar</option>
-<option value="DANUBE">DANUBE</option>
-<option value="DMCC">DMCC</option>
-<option value="DUBAI PROPERTIES">DUBAI PROPERTIES</option>
-<option value="ELLINGTON">ELLINGTON</option>   
-<option value="EMAAR">EMAAR</option>  
-<option value="Empire Residence">Empire Residence</option>
-<option value="FAKHRUDDIN">FAKHRUDDIN</option> 
-<option value="MAG">MAG</option>  
-<option value="MAYA">MAYA</option> 
-<option value="Me Do Ee">Me Do Ee</option>
-<option value="NAKHEEL">NAKHEEL</option> 
-<option value="NSHAMA">NSHAMA</option>
-<option value="OMNIYAT">OMNIYAT</option>
-<option value="OCTA">OCTA</option>
-<option value="Prescott">Prescott</option>
-<option value="REPORTAGE">REPORTAGE</option>   
-<option value="SAMANA">SAMANA</option>            
-<option value="SOBHA">SOBHA</option>   
-<option value="Symbolic">Symbolic</option>
-<option value="Sotheby">Sotheby's</option>
-<option value="THE HEART OF EUROPE">THE HEART OF EUROPE</option>
-<option value="TIGER">TIGER</option>              
-<option value="VINCITORE">VINCITORE</option>
-<option value="wow (sls)">wow (sls)</option>
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-31" aria-haspopup="listbox" aria-expanded="false" title="Select Developer"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select Developer</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-31" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-31" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="widget-wrapper">
-                 
-                   <div class="form-style2 input-group">
-                    <div class="dropdown bootstrap-select" style="width: 100%;"><select class="selectpicker" name="p_status" data-live-search="true" data-width="100%">
-                      <option value="">Property Status</option>
-                        <option value="Ready To Move">Ready To Move</option>   
-						<option value="Off Plan">Off Plan</option> 
-						  
-                    </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-32" aria-haspopup="listbox" aria-expanded="false" title="Property Status"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Status</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-32" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-32" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                  </div>
-                </div>
-              </div>
-			  
-			   
-			  
-			   
-            </div>
-             <div class="row">
-              <div class="col-lg-6">
-                <div class="widget-wrapper">
-                  
-                    <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="min_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
-                <option value="">Min. Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
-            </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-33" aria-haspopup="listbox" aria-expanded="false" title="Min. Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Min. Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-33" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-33" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
-                   
-                </div>
-              </div>
-			  <div class="col-lg-6">
-                <div class="widget-wrapper">
-                  
-                     <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="max_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
-                <option value="">Max Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
-            </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-34" aria-haspopup="listbox" aria-expanded="false" title="Max Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Max Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-34" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-34" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div><!-- selectpicker -->
-               <!-- </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer justify-content-between">
- 
-            <div class="btn-area">
-              <button class="ud-btn btn-dark"><span class="fa fa-search align-text-top pr10"></span>Search</button>
-            </div>
-          </div>
-		  </form>
-		  </div>
-        </div>
-      </div>
-    </div>
-  </div>				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				              </div>
-            </div>
-			          </div>
-        </div> -->
+     
         <a href="#explore-property">
           <div class="mouse_scroll animate-up-4">
             <img src="uploads/home-scroll.png" alt="" />          </div>
@@ -1185,7 +257,7 @@
               <div class="iconbox-content">
                 <h4 class="title">Buy a property</h4>
                 <p class="text">Discover your dream home with us - buy a property that suits your needs and desires!</p>
-                <a href="projects.php" class="ud-btn btn-white2">Find a home<i class="fal fa-arrow-right-long"></i></a>              </div>
+                <a href="{{ asset('projects')}}" class="ud-btn btn-white2">Find a home<i class="fal fa-arrow-right-long"></i></a>              </div>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
@@ -1194,7 +266,7 @@
               <div class="iconbox-content">
                 <h4 class="title">Sell a property</h4>
                 <p class="text">Maximize your property's potential - sell with us for a seamless and successful transaction!</p>
-                <a href="sale.php" class="ud-btn btn-white2">Sell from us<i class="fal fa-arrow-right-long"></i></a>              </div>
+                <a href="{{ asset('sale')}}" class="ud-btn btn-white2">Sell from us<i class="fal fa-arrow-right-long"></i></a>              </div>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
@@ -1203,7 +275,7 @@
               <div class="iconbox-content">
                 <h4 class="title">Rent a property</h4>
                 <p class="text">Experience the perfect rental - find your ideal home with us and enjoy the comfort and convenience you deserve!</p>
-                <a href="rent.php" class="ud-btn btn-white2">Find a rental<i class="fal fa-arrow-right-long"></i></a>              </div>
+                <a href="{{ asset('rent')}}" class="ud-btn btn-white2">Find a rental<i class="fal fa-arrow-right-long"></i></a>              </div>
             </div>
           </div>
         </div>
@@ -1222,51 +294,30 @@
           </div>
           <div class="col-lg-3">
             <div class="text-start text-lg-end mb-3">
-              <a class="ud-btn2" href="projects.php">See All Projects <i class="fa fa-long-arrow-right"></i></a>            </div>
+              <a class="ud-btn2" href="{{ asset('projects')}}">See All Projects <i class="fa fa-long-arrow-right"></i></a>            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
             <div class="feature-listing-slider navi_pagi_bottom_center slider-dib-sm slider-3-grid owl-carousel owl-theme owl-loaded owl-drag">
-			  	
-                		
-				
-				 	
-                		
-				
-				 	
-                		
-				
-				 	
-                		
-				
-				 	
-                		
-				
-				 	
-                		
-				
-					
-						
-               
             <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2674px, 0px, 0px); transition: 1.2s; width: 4584px;"><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=245&amp;title=Palm Beach Towers "> <img class="w-100" src="uploads/5c41de6aea02d863e30b781bfb0ae16fNakheel Penthouse Palm View.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2026-04-30</div>                    
+                     <a href="{{ asset('p1details')}}"> <img class="w-100" src="uploads/p1.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2025-08-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=245&amp;title=Palm Beach Towers ">Palm Beach Towers </a></h6>
-                      <p class="list-text">Palm Jumeirah</p>
+                      <h6 class="list-title"><a href="{{ asset('p1details')}}">M3M Jewel Crest Avenue, Sector 97, Noida</a></h6>
+                      <p class="list-text">M3M Jewel Crest Avenue</p>
                        
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=245&amp;title=Palm Beach Towers ">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p1details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=245&amp;title=Palm Beach Towers " style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Palm Beach Towers </a>
+                          <a href="{{ asset('p1details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i>M3M Jewel Crest Avenue</a>
                          
                         </div>
                       </div>
@@ -1275,21 +326,21 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club"> <img class="w-100" src="uploads/b6acfeeaf98c9134da9ecbddabd186b8Vincitore Dolce vista.jpg" alt="" /></a>
+                     <a href="{{ asset('p2details')}}"> <img class="w-100" src="uploads/p2.png" alt="" /></a>
                       <div class="list-price top">Handover: 2026-06-30</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club">Dolce Vita Premium Club</a></h6>
-                      <p class="list-text">Arjan</p>
+                      <h6 class="list-title"><a href="{{ asset('p2details')}}">M3M JACOB And CO Residences, Sector 97, Noida</a></h6>
+                      <p class="list-text">M3M JACOB</p>
                        
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p2details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Dolce Vita Premium Club</a>
+                          <a href="{{ asset('p2details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i>M3M JACOB And CO Residences</a>
                          
                         </div>
                       </div>
@@ -1298,27 +349,165 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=248&amp;title=Wilton Park Studio"> <img class="w-100" src="uploads/3dba252d91354944727cc0ece6b8057eElington.jpg" alt="" /></a>
+                     <a href="{{ asset('p3details')}}"> <img class="w-100" src="uploads/p3.webp" alt="" /></a>
                       <div class="list-price top">Handover: 2023-09-30</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=248&amp;title=Wilton Park Studio">Wilton Park Studio</a></h6>
-                      <p class="list-text">Meydan</p>
+                      <h6 class="list-title"><a href="{{ asset('p3details')}}">Ekana Business Centre, Gomti Nagar Extension, Lucknow</a></h6>
+                      <p class="list-text">Ekana Business Centre</p>
                        
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=248&amp;title=Wilton Park Studio">Ready To Move</a></span>
+                        <span class="project-type"><a href="{{ asset('p3details')}}">Ready To Move</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=248&amp;title=Wilton Park Studio" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Wilton Park Studio</a>
+                          <a href="{{ asset('p3details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Ekana Business Centre</a>
                          
                         </div>
                       </div>
                     </div>
                   </div>
                 </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('p4details')}}"> <img class="w-100" src="uploads/p4.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2025-12-30</div>                    
+                    
+                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
+                                        
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p4details')}}">Sikka The Crown of Noida, Sector 143A, Noida</a></h6>
+                      <p class="list-text">Sikka The Crown of Noida</p>
+                       
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="project-type"><a href="{{ asset('p4details')}}">Off Plan</a></span>
+                        <div class="icons d-flex align-items-center">
+                          <a href="{{ asset('p4details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Sikka The Crown of Noida</a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('p5details')}}"> <img class="w-100" src="uploads/p5.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2025-06-30</div>                    
+                    
+                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
+                                        
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p5details')}}">Migsun 1 Destination, Sushant Golf City, Lucknow</a></h6>
+                      <p class="list-text">Lucknow</p>
+                       
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="project-type"><a href="{{ asset('p5details')}}">Off Plan</a></span>
+                        <div class="icons d-flex align-items-center">
+                          <a href="{{ asset('p5details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Migsun 1 Destination</a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('p6details')}}"> <img class="w-100" src="uploads/p6.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2025-06-30</div>                    
+                    
+                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
+                                        
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p6details')}}">Bhutani City Center 32, Sector 32, Noida</a></h6>
+                      <p class="list-text">Noida</p>
+                       
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="project-type"><a href="{{ asset('p6details')}}">Off Plan</a></span>
+                        <div class="icons d-flex align-items-center">
+                          <a href="{{ asset('p6details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Bhutani City Center 32</a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('p7details')}}"> <img class="w-100" src="uploads/p7.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2026-04-30</div>                    
+                    
+                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
+                                        
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p7details')}}">M3M The Line, Sector 72, Noida </a></h6>
+                      <p class="list-text">Noida</p>
+                       
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="project-type"><a href="{{ asset('p7details')}}">Off Plan</a></span>
+                        <div class="icons d-flex align-items-center">
+                          <a href="{{ asset('p7details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> M3M The Line </a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('p8details')}}"> <img class="w-100" src="uploads/p8.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2026-06-30</div>                    
+                    
+                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
+                                        
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p8details')}}">Migsun Food Lane, Sushant Golf City, Lucknow</a></h6>
+                      <p class="list-text">Lucknow</p>
+                       
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="project-type"><a href="{{ asset('p8details')}}">Off Plan</a></span>
+                        <div class="icons d-flex align-items-center">
+                          <a href="{{ asset('p8details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Migsun Food Lane</a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('p9details')}}"> <img class="w-100" src="uploads/p9.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2023-09-30</div>                    
+                    
+                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
+                                        
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p9details')}}">EON Fairfox, Sector 140, Noida</a></h6>
+                      <p class="list-text">Noida</p>
+                       
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="project-type"><a href="{{ asset('p9details')}}">Ready To Move</a></span>
+                        <div class="icons d-flex align-items-center">
+                          <a href="{{ asset('p9details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> EON Fairfox</a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- </div></div><div class="owl-item cloned active" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="project-page.php?id=235&amp;title=Serene Garden 1BHK"> <img class="w-100" src="uploads/19e56da449e981f52ab0b7ad83650acf01 Priscott Serene Garden.jpg" alt="" /></a>
@@ -1341,144 +530,6 @@
                       </div>
                     </div>
                   </div>
-                </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=243&amp;title=Alpha 1BHK"> <img class="w-100" src="uploads/3082fa2f9e5577a7c3453c69a0709458Symbolic Alpha Day view.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=243&amp;title=Alpha 1BHK">Alpha 1BHK</a></h6>
-                      <p class="list-text">Dubai</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=243&amp;title=Alpha 1BHK">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=243&amp;title=Alpha 1BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 1BHK</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=244&amp;title=Alpha 2.5BHK"> <img class="w-100" src="uploads/b03ae23663ac55019a1dff196cf2961fSymbolic Alpha Night view.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=244&amp;title=Alpha 2.5BHK">Alpha 2.5BHK</a></h6>
-                      <p class="list-text">Dubai</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=244&amp;title=Alpha 2.5BHK">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=244&amp;title=Alpha 2.5BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 2.5BHK</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=245&amp;title=Palm Beach Towers "> <img class="w-100" src="uploads/5c41de6aea02d863e30b781bfb0ae16fNakheel Penthouse Palm View.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2026-04-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=245&amp;title=Palm Beach Towers ">Palm Beach Towers </a></h6>
-                      <p class="list-text">Palm Jumeirah</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=245&amp;title=Palm Beach Towers ">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=245&amp;title=Palm Beach Towers " style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Palm Beach Towers </a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club"> <img class="w-100" src="uploads/b6acfeeaf98c9134da9ecbddabd186b8Vincitore Dolce vista.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2026-06-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club">Dolce Vita Premium Club</a></h6>
-                      <p class="list-text">Arjan</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=247&amp;title=Dolce Vita Premium Club" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Dolce Vita Premium Club</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=248&amp;title=Wilton Park Studio"> <img class="w-100" src="uploads/3dba252d91354944727cc0ece6b8057eElington.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2023-09-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=248&amp;title=Wilton Park Studio">Wilton Park Studio</a></h6>
-                      <p class="list-text">Meydan</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=248&amp;title=Wilton Park Studio">Ready To Move</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=248&amp;title=Wilton Park Studio" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Wilton Park Studio</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item cloned active" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=235&amp;title=Serene Garden 1BHK"> <img class="w-100" src="uploads/19e56da449e981f52ab0b7ad83650acf01 Priscott Serene Garden.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-12-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=235&amp;title=Serene Garden 1BHK">Serene Garden 1BHK</a></h6>
-                      <p class="list-text">Discovery Gardens</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=235&amp;title=Serene Garden 1BHK">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=235&amp;title=Serene Garden 1BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Serene Garden 1BHK</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
@@ -1505,27 +556,27 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=244&amp;title=Alpha 2.5BHK"> <img class="w-100" src="uploads/b03ae23663ac55019a1dff196cf2961fSymbolic Alpha Night view.jpg" alt="" /></a>
+                     <a href="{{ asset('p6details')}}"> <img class="w-100" src="uploads/b03ae23663ac55019a1dff196cf2961fSymbolic Alpha Night view.jpg" alt="" /></a>
                       <div class="list-price top">Handover: 2025-06-30</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=244&amp;title=Alpha 2.5BHK">Alpha 2.5BHK</a></h6>
+                      <h6 class="list-title"><a href="{{ asset('p6details')}}">Alpha 2.5BHK</a></h6>
                       <p class="list-text">Dubai</p>
                        
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=244&amp;title=Alpha 2.5BHK">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p6details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=244&amp;title=Alpha 2.5BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 2.5BHK</a>
+                          <a href="{{ asset('p6details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 2.5BHK</a>
                          
                         </div>
                       </div>
                     </div>
                   </div>
-                </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fa fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div></div>
+                </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fa fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div></div> -->
           </div>
         </div>
       </div>
@@ -1543,7 +594,7 @@
           </div>
           <div class="col-lg-3">
             <div class="text-start text-lg-end mb-3">
-              <a class="ud-btn2" href="sale.php" style="color:#fff;">See All Sale Properties<i class="fa fa-long-arrow-right"></i></a>            </div>
+              <a class="ud-btn2" href="{{ asset('sale')}}" style="color:#fff;">See All Sale Properties<i class="fa fa-long-arrow-right"></i></a>            </div>
           </div>
         </div>
         <div class="row">
@@ -1564,24 +615,24 @@
             <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1146px, 0px, 0px); transition: all; width: 3438px;"><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=238&amp;title=Maya 2BHK"><img class="w-100" src="uploads/b35a43ac9bcb08f6cf0e1493f9c9234eMaya 3.jpg" alt="" /></a>
-					   <div class="list-price">AED  997 </div>
+                      <a href="{{ asset('p10details')}}"><img class="w-100" src="uploads/p10.webp" alt="" /></a>
+					   <div class="list-price"></div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=238&amp;title=Maya 2BHK">Maya 2BHK</a></h6>
-                      <p class="list-text">Dubai land</p>
-                      <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-bed"></span>2 bed</a>
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-shower"></span>2 bath</a>
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
-                      </div>
+                      <h6 class="list-title"><a href="{{ asset('p10details')}}">Eldeco Whispers of Wonder (Wow), Sector 22D, Yamuna Expressway, Greater Noida</a></h6>
+                      <p class="list-text">Greater Noida</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-bed"></span>2 bed</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-shower"></span>2 bath</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
+                      </div> -->
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=238&amp;title=Maya 2BHK"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p10details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -1589,7 +640,7 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/afb27af6297838a38f34eea4e6168fc5Ajman al zahya.jpg" alt="" /></a>
+                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/p11.webp" alt="" /></a>
 					   <div class="list-price">AED  1,300,000 </div>
 	                   
                     </div>
@@ -1614,7 +665,7 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/daeb6cf2a7efec6845c7a92391f6ca47Al yasmeen.jpg" alt="" /></a>
+                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/p12.webp" alt="" /></a>
 					   <div class="list-price">AED  1,330,000 </div>
 	                   
                     </div>
@@ -1639,24 +690,24 @@
                 </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=238&amp;title=Maya 2BHK"><img class="w-100" src="uploads/b35a43ac9bcb08f6cf0e1493f9c9234eMaya 3.jpg" alt="" /></a>
+                      <a href="{{ asset('p10details')}}"><img class="w-100" src="uploads/p13.webp" alt="" /></a>
 					   <div class="list-price">AED  997 </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=238&amp;title=Maya 2BHK">Maya 2BHK</a></h6>
+                      <h6 class="list-title"><a href="{{ asset('p10details')}}">Maya 2BHK</a></h6>
                       <p class="list-text">Dubai land</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-bed"></span>2 bed</a>
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-shower"></span>2 bath</a>
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-bed"></span>2 bed</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-shower"></span>2 bath</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=238&amp;title=Maya 2BHK"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p10details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -1664,7 +715,7 @@
                 </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/afb27af6297838a38f34eea4e6168fc5Ajman al zahya.jpg" alt="" /></a>
+                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/p14.webp" alt="" /></a>
 					   <div class="list-price">AED  1,300,000 </div>
 	                   
                     </div>
@@ -1689,7 +740,7 @@
                 </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/daeb6cf2a7efec6845c7a92391f6ca47Al yasmeen.jpg" alt="" /></a>
+                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/p15.webp" alt="" /></a>
 					   <div class="list-price">AED  1,330,000 </div>
 	                   
                     </div>
@@ -1714,24 +765,24 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=238&amp;title=Maya 2BHK"><img class="w-100" src="uploads/b35a43ac9bcb08f6cf0e1493f9c9234eMaya 3.jpg" alt="" /></a>
+                      <a href="{{ asset('p10details')}}"><img class="w-100" src="uploads/p16.webp" alt="" /></a>
 					   <div class="list-price">AED  997 </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=238&amp;title=Maya 2BHK">Maya 2BHK</a></h6>
+                      <h6 class="list-title"><a href="{{ asset('p10details')}}">Maya 2BHK</a></h6>
                       <p class="list-text">Dubai land</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-bed"></span>2 bed</a>
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-shower"></span>2 bath</a>
-                        <a href="property.php?id=238&amp;title=Maya 2BHK"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-bed"></span>2 bed</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-shower"></span>2 bath</a>
+                        <a href="{{ asset('p10details')}}"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=238&amp;title=Maya 2BHK"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p10details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -1739,7 +790,7 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/afb27af6297838a38f34eea4e6168fc5Ajman al zahya.jpg" alt="" /></a>
+                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/p17.webp" alt="" /></a>
 					   <div class="list-price">AED  1,300,000 </div>
 	                   
                     </div>
@@ -1764,7 +815,7 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/daeb6cf2a7efec6845c7a92391f6ca47Al yasmeen.jpg" alt="" /></a>
+                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/p18.webp" alt="" /></a>
 					   <div class="list-price">AED  1,330,000 </div>
 	                   
                     </div>
@@ -1796,7 +847,7 @@
      
 
     <!-- Popular Property -->
-    <section class="pb40-md pb90 bg-white">
+    <!-- <section class="pb40-md pb90 bg-white">
       <div class="container">
         <div class="row align-items-center wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
           <div class="col-lg-12">
@@ -1967,7 +1018,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
    <section class="pt60 pb50-md bgc-thm-light">
       <div class="container">
@@ -2231,257 +1282,225 @@
       </div>
     </section>
 
-    <!-- Explore Apartment -->
-     <section class="pt-40 pb60 pb50-md bg-white teamsec">
-      <div class="container">
-        <div class="row wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-          <div class="col-lg-9 mx-auto text-center">
-            <div class="main-title2">
-              <h2 class="title">Our Exclusive Agents</h2>
-              <p class="paragraph">"Meet our exceptional real estate team - dedicated professionals to navigate the market, negotiate deals, and exceed your expectations!"
-</p>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-            
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=45">
-             <div class="feature-img"><img class="bdrs12" src="uploads/81b411bd972cd722601169e1b411bd42agent-1.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=45">
-                <h6 class="title mb-1">Shifin Shari</h6>
-                <p class="text fz15">Executive Director </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=45">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=46">
-             <div class="feature-img"><img class="bdrs12" src="uploads/ed1a6eb4df357f932862212c04087fafagent-2.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=46">
-                <h6 class="title mb-1">Kajal Ubaid</h6>
-                <p class="text fz15">Real estate agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=46">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=49">
-             <div class="feature-img"><img class="bdrs12" src="uploads/6e68b9de234a3f03c803f023a57c201dAsna.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=49">
-                <h6 class="title mb-1">Asna Abdull Kudhoos</h6>
-                <p class="text fz15">Property Investment Adviser </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=49">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=50">
-             <div class="feature-img"><img class="bdrs12" src="uploads/e81ac7d3e80117a02baa1a18ba38cc4aSHEMIL.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=50">
-                <h6 class="title mb-1">Shemil Sihrajudheen</h6>
-                <p class="text fz15">Business Development Manager </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=50">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=51">
-             <div class="feature-img"><img class="bdrs12" src="uploads/c063d8799eff8834a785fcdd79ec57f9shareef.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=51">
-                <h6 class="title mb-1">Mohammad Shareef</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=51">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=53">
-             <div class="feature-img"><img class="bdrs12" src="uploads/7d9c6bab84bc909fdb8e2db97c7248d5Kiruthiga.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=53">
-                <h6 class="title mb-1">Kiruthiga Babu</h6>
-                <p class="text fz15">HR &amp; Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=53">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=55">
-             <div class="feature-img"><img class="bdrs12" src="uploads/b82a2bc3bea603b696cc0898aebe8f44Rishab.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=55">
-                <h6 class="title mb-1">MA RISHAB BRUNO</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=55">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=56">
-             <div class="feature-img"><img class="bdrs12" src="uploads/871a7329768a9360032d2ade9e142587raazi.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=56">
-                <h6 class="title mb-1">Raazi Aziz</h6>
-                <p class="text fz15">Manager (Abudhabi Branch) </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=56">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=57">
-             <div class="feature-img"><img class="bdrs12" src="uploads/ef0973dc28d4177ca9b11e730565002dAnanth.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=57">
-                <h6 class="title mb-1">Ananth</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=57">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=58">
-             <div class="feature-img"><img class="bdrs12" src="uploads/c5552286da9e64800ed0557e615c1100Lekshmi.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=58">
-                <h6 class="title mb-1">Lekshmi</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=58">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=59">
-             <div class="feature-img"><img class="bdrs12" src="uploads/81f1657233293ac62e234817424f8894Derric.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=59">
-                <h6 class="title mb-1">Derric</h6>
-                <p class="text fz15">Content Creator </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=59">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=60">
-             <div class="feature-img"><img class="bdrs12" src="uploads/0c1f2eba638ef7eb67512a5d4633c33fRohini.jpg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=60">
-                <h6 class="title mb-1">Rohini Kamaraj</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=60">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=61">
-             <div class="feature-img"><img class="bdrs12" src="uploads/63b93a510b50906a4ed4912d005f571cRam.jpeg" alt="" /></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=61">
-                <h6 class="title mb-1">RAM SREE KUMAR</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=61">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-        </div>
+<section id="team" class="team-section">
+  <div class="container">
+    <h2 class="section-title">Meet Our Team</h2>
+
+    <!-- Founder -->
+<div class="founder">
+  <img src="images/founder.jpeg" alt="Founder">
+  <h2>Mr. Pranay Barthwal</h2>
+  <h4>Founder / Managing Director</h4>
+
+  <!-- Attractive Button -->
+  <a href="{{ asset('founder')}}" class="founder-btn">Read More About Founder</a>
+</div>
+
+
+    <!-- Connecting line -->
+    <div class="connector-line"></div>
+
+    <!-- HR and Manager -->
+    <div class="managers">
+      <div class="member">
+        <img src="images/hr.png" alt="HR">
+        <h3>Ms. Sakshi Sharma</h3>
+        <p>Human Resources</p>
       </div>
-    </section>
+      <div class="member">
+        <img src="images/manager.png" alt="Manager">
+        <h3>Mr. Shivam Yadav</h3>
+        <p>Administrator</p>
+      </div>
+    </div>
+
+    <!-- Connector -->
+    <div class="connector-line"></div>
+
+    <!-- Team Members -->
+    <div class="team-members">
+      <div class="member">
+        <img src="images/it.jpeg" alt="Sales Executive">
+        <h3>Ratan Swarnkar</h3>
+        <p>IT Expert</p>
+      </div>
+      <div class="member">
+        <img src="images/client_manager.png" alt="Marketing Head">
+        <h3>Rajat Kumar</h3>
+        <p>Client Manager</p>
+      </div>
+      <div class="member">
+        <img src="images/real_estate_expert.png" alt="Engineer">
+        <h3>Nishant Chauhan</h3>
+        <p>Senior Real Estate Expert</p>
+      </div>
+      <div class="member">
+        <img src="images/client_manager1.jpeg" alt="Designer">
+        <h3>Anshika Sharma</h3>
+        <p>Client Manager</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .founder {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.founder img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.founder img:hover {
+  transform: scale(1.05);
+}
+
+/* Gold Button */
+.founder-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  background-color: #d4af37; /* your uploaded gold color */
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+  transition: all 0.3s ease;
+}
+
+.founder-btn:hover {
+  background-color: #c19a2c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(212, 175, 55, 0.6);
+}
+
+.team-section { position: relative; background: url("uploads/team-bg.png") center/cover no-repeat; /* 🔹 your background image */ text-align: center; padding: 100px 20px; color: #fff; /* default white text for contrast */ overflow: hidden; }
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fffff; /* ✅ Purple heading */
+  margin-bottom: 50px;
+}
+
+/* Founder */
+.founder {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.founder img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.founder h2 {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.founder h4 {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Connector line */
+.connector-line {
+  width: 2px;
+  height: 40px;
+  background: #ccc;
+  opacity: 0.6;
+  margin: 20px auto;
+}
+
+/* HR + Manager */
+.managers {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.managers .member,
+.team-members .member {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+}
+
+/* Member Images */
+.managers .member img,
+.team-members .member img {
+  width: 180px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.member h3 {
+  font-size: 1.1rem;
+  color: #111;
+  margin: 8px 0 4px;
+}
+
+.member p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Team Members */
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .founder img {
+    width: 180px;
+    height: 180px;
+  }
+  .managers, .team-members {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .connector-line {
+    height: 25px;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+</style>
 
     <!-- Our Partners --> 
       <!-- Our Testimonials -->
@@ -2503,7 +1522,7 @@
                 <h2 class="cta-title">Need help? Talk to our expert</h2>
                 <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
                 <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
-				<a href="tel: 055 225 4741" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>055 225 4741</a> 
+				<a href="tel: +91-7289898686" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91-7289898686</a> 
               </div>
             </div>
           </div>

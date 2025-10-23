@@ -159,7 +159,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           </div>
           <div class="col-auto">
             <div class="d-flex align-items-center">
-              <a class="login-info d-flex align-items-center" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="fa fa-user-circle fz16 me-2"></i> <span class="d-none d-xl-block">Login</span></a>
               <a class="ud-btn add-property menu-btn bdrs60 mx-2 mx-xl-4" href="{{ asset('contact')}}">Contact Us <i class="fa fa-long-arrow-right"></i></a>
                  </div>
           </div>
@@ -214,3 +213,245 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
   </div>
+
+  <!-- 🟡 Floating Chatbot -->
+<div class="chatbot-wrapper">
+  <!-- Floating Button -->
+  <div class="chatbot-float" onclick="toggleChat()">
+    <span class="wave">👋</span>
+    <span class="chat-text">Hi, we’re here!</span>
+  </div>
+
+  <!-- Chat Window -->
+  <div class="chatbot-container" id="chatbot">
+    <div class="chatbot-header" onclick="toggleChat()">
+      🤖 Maybach Homes Chat
+    </div>
+    <div class="chatbot-body" id="chatBody">
+      <div class="chatbot-messages" id="chatMessages"></div>
+      <div class="chatbot-input">
+        <input type="text" id="userInput" placeholder="Type your answer..." onkeydown="if(event.key==='Enter') sendMessage()" />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* =============== Floating Icon =============== */
+.chatbot-wrapper {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9999;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Floating circle */
+.chatbot-float {
+  background-color: #d4af37;
+  color: #000;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  animation: floatIcon 3s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Greeting text bubble */
+.chat-text {
+  position: absolute;
+  left: 80px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #d4af37;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  animation: floatMsg 2s infinite ease-in-out;
+}
+
+@keyframes floatMsg {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+/* Waving animation */
+.wave {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: waveHand 2s infinite;
+}
+
+@keyframes waveHand {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10%, 30%, 50% { transform: rotate(20deg); }
+  20%, 40% { transform: rotate(-10deg); }
+}
+
+/* Hover effect */
+.chatbot-float:hover {
+  background-color: #c19e2f;
+  transform: scale(1.05);
+}
+
+/* =============== Chat Window =============== */
+.chatbot-container {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  left: 25px;
+  width: 320px;
+  background: #fff;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.chatbot-header {
+  background-color: #d4af37;
+  color: #000;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.chatbot-body {
+  max-height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.chatbot-input {
+  display: flex;
+  border-top: 1px solid #eee;
+}
+
+.chatbot-input input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.chatbot-input button {
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Messages */
+.bot-message, .user-message {
+  margin: 8px 0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  max-width: 85%;
+}
+
+.bot-message {
+  background: #f4f4f4;
+  align-self: flex-start;
+}
+
+.user-message {
+  background: #d4af37;
+  color: #000;
+  align-self: flex-end;
+  margin-left: auto;
+}
+</style>
+
+<script>
+/* 🧠 Chatbot Questions */
+const questions = [
+  "👋 Hi there! Welcome to Maybach Homes Property Group — India’s trusted name in luxury real estate. Can I help you find your dream property today?",
+  "🏢 What type of property are you interested in? (Residential Apartment / Villa / Commercial / Plot)",
+  "📍 Which location or city are you looking to buy or rent in?",
+  "💰 What is your budget range? (50L–1Cr / 1–3Cr / 3–5Cr / Above 5Cr)",
+  "📊 Are you looking to buy, rent, or invest?",
+  "🗓️ When do you plan to make your purchase? (Immediately / Within 3 months / 3–6 months / After 6 months)",
+  "🏦 Do you need home loan assistance or financial guidance? (Yes / No)",
+  "📞 Can I have your contact details to connect with a property advisor? (Name, Email, Phone)",
+  "📢 Would you like to receive details about upcoming luxury projects or investment offers?",
+  "📆 Would you like to schedule a free consultation call with our real estate expert?"
+];
+
+let currentQuestion = 0;
+
+window.onload = () => {
+  addBotMessage(questions[currentQuestion]);
+};
+
+function sendMessage() {
+  const input = document.getElementById("userInput");
+  const msg = input.value.trim();
+  if (!msg) return;
+
+  addUserMessage(msg);
+  input.value = "";
+
+  setTimeout(() => {
+    nextQuestion(msg);
+  }, 500);
+}
+
+function nextQuestion(userMsg) {
+  currentQuestion++;
+  if (currentQuestion < questions.length) {
+    addBotMessage(questions[currentQuestion]);
+  } else {
+    addBotMessage(`🙏 Thank you! Our expert advisor will contact you shortly with the best property options in your range. Meanwhile, feel free to explore our featured projects at <a href="https://www.maybachhomes.com/projects" target="_blank">www.maybachhomes.com/projects</a>.`);
+  }
+}
+
+function addBotMessage(text) {
+  const chatMessages = document.getElementById("chatMessages");
+  const msgDiv = document.createElement("div");
+  msgDiv.className = "bot-message";
+  msgDiv.innerHTML = text;
+  chatMessages.appendChild(msgDiv);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+function addUserMessage(text) {
+  const chatMessages = document.getElementById("chatMessages");
+  const msgDiv = document.createElement("div");
+  msgDiv.className = "user-message";
+  msgDiv.innerText = text;
+  chatMessages.appendChild(msgDiv);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+function toggleChat() {
+  const chatWindow = document.querySelector(".chatbot-container");
+  chatWindow.style.display = chatWindow.style.display === "block" ? "none" : "block";
+}
+</script>

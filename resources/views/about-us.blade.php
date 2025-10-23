@@ -20,7 +20,7 @@
       <ul>
         <li><a href="{{ asset('home')}}">Home</a></li>
 		<li><a href="{{ asset('about-us')}}">About Us</a></li>
-        <li><a href="{{ asset('projects')}">Projects</a></li>
+        <li><a href="{{ asset('projects')}}">Projects</a></li>
 		<li><a href="sale.php">Re-Sale</a></li>
 		<li><a href="rent.php">Rent</a></li>
 		<li><a href="team.php">Team</a></li>
@@ -42,7 +42,7 @@
   <div class="body_content">
     <!-- Property All Lists -->
       <!-- UI Elements Sections -->
-    <section class="breadcumb-section2 p-0" style="background-image: url(images/aboutus.jpeg);">
+    <section class="breadcumb-section2 p-0" style="background-image: url(uploads/about_banner.png);">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -110,256 +110,225 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
     
  
    
-    <!-- Our Agents -->
-    <section class="pt-0 pb80 pb50-md">
-      <div class="container">
-        <div class="row wow fadeInUp" data-wow-delay="300ms">
-          <div class="col-lg-9 mx-auto text-center">
-            <div class="main-title2">
-              <h2 class="title">Our Exclusive Agents</h2>
-              <p class="paragraph">"Meet our exceptional real estate team - dedicated professionals to navigate the market, negotiate deals, and exceed your expectations!" </p>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp" data-wow-delay="300ms">
-            
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=45">
-             <div class="feature-img"><img class="bdrs12" src="uploads/81b411bd972cd722601169e1b411bd42agent-1.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=45">
-                <h6 class="title mb-1">Shifin Shari</h6>
-                <p class="text fz15">Executive Director </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=45">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=46">
-             <div class="feature-img"><img class="bdrs12" src="uploads/ed1a6eb4df357f932862212c04087fafagent-2.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=46">
-                <h6 class="title mb-1">Kajal Ubaid</h6>
-                <p class="text fz15">Real estate agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=46">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=49">
-             <div class="feature-img"><img class="bdrs12" src="uploads/6e68b9de234a3f03c803f023a57c201dAsna.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=49">
-                <h6 class="title mb-1">Asna Abdull Kudhoos</h6>
-                <p class="text fz15">Property Investment Adviser </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=49">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=50">
-             <div class="feature-img"><img class="bdrs12" src="uploads/e81ac7d3e80117a02baa1a18ba38cc4aSHEMIL.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=50">
-                <h6 class="title mb-1">Shemil Sihrajudheen</h6>
-                <p class="text fz15">Business Development Manager </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=50">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=51">
-             <div class="feature-img"><img class="bdrs12" src="uploads/c063d8799eff8834a785fcdd79ec57f9shareef.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=51">
-                <h6 class="title mb-1">Mohammad Shareef</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=51">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=53">
-             <div class="feature-img"><img class="bdrs12" src="uploads/7d9c6bab84bc909fdb8e2db97c7248d5Kiruthiga.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=53">
-                <h6 class="title mb-1">Kiruthiga Babu</h6>
-                <p class="text fz15">HR & Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=53">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=55">
-             <div class="feature-img"><img class="bdrs12" src="uploads/b82a2bc3bea603b696cc0898aebe8f44Rishab.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=55">
-                <h6 class="title mb-1">MA RISHAB BRUNO</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=55">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=56">
-             <div class="feature-img"><img class="bdrs12" src="uploads/871a7329768a9360032d2ade9e142587raazi.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=56">
-                <h6 class="title mb-1">Raazi Aziz</h6>
-                <p class="text fz15">Manager (Abudhabi Branch) </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=56">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=57">
-             <div class="feature-img"><img class="bdrs12" src="uploads/ef0973dc28d4177ca9b11e730565002dAnanth.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=57">
-                <h6 class="title mb-1">Ananth</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=57">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=58">
-             <div class="feature-img"><img class="bdrs12" src="uploads/c5552286da9e64800ed0557e615c1100Lekshmi.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=58">
-                <h6 class="title mb-1">Lekshmi</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=58">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=59">
-             <div class="feature-img"><img class="bdrs12" src="uploads/81f1657233293ac62e234817424f8894Derric.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=59">
-                <h6 class="title mb-1">Derric</h6>
-                <p class="text fz15">Content Creator </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=59">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=60">
-             <div class="feature-img"><img class="bdrs12" src="uploads/0c1f2eba638ef7eb67512a5d4633c33fRohini.jpg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=60">
-                <h6 class="title mb-1">Rohini Kamaraj</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=60">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-          <div class="col-auto">
-            <div class="feature-style2 mb30">
-             <a href="team-member.php?id=61">
-             <div class="feature-img"><img class="bdrs12" src="uploads/63b93a510b50906a4ed4912d005f571cRam.jpeg" alt=""></div>
-              </a><div class="feature-content pt20"><a href="team-member.php?id=61">
-                <h6 class="title mb-1">RAM SREE KUMAR</h6>
-                <p class="text fz15">Sales Agent </p>
-				</a><div class="testimonial-review"><a href="team-member.php?id=61">
-                      </a><a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-              </div>
-            </div>
-          </div>
-		  
-		   
-        </div>
+  <section id="team" class="team-section">
+  <div class="container">
+    <h2 class="section-title">Meet Our Team</h2>
+
+    <!-- Founder -->
+<div class="founder">
+  <img src="images/founder.jpeg" alt="Founder">
+  <h2>Mr. Pranay Barthwal</h2>
+  <h4>Founder / Managing Director</h4>
+
+  <!-- Attractive Button -->
+  <a href="{{ asset('founder')}}" class="founder-btn">Read More About Founder</a>
+</div>
+
+
+    <!-- Connecting line -->
+    <div class="connector-line"></div>
+
+    <!-- HR and Manager -->
+    <div class="managers">
+      <div class="member">
+        <img src="images/hr.png" alt="HR">
+        <h3>Ms. Sakshi Sharma</h3>
+        <p>Human Resources</p>
       </div>
-    </section>
+      <div class="member">
+        <img src="images/manager.png" alt="Manager">
+        <h3>Mr. Shivam Yadav</h3>
+        <p>Administrator</p>
+      </div>
+    </div>
+
+    <!-- Connector -->
+    <div class="connector-line"></div>
+
+    <!-- Team Members -->
+    <div class="team-members">
+      <div class="member">
+        <img src="images/it.jpeg" alt="Sales Executive">
+        <h3>Ratan Swarnkar</h3>
+        <p>IT Expert</p>
+      </div>
+      <div class="member">
+        <img src="images/client_manager.png" alt="Marketing Head">
+        <h3>Rajat Kumar</h3>
+        <p>Client Manager</p>
+      </div>
+      <div class="member">
+        <img src="images/real_estate_expert.png" alt="Engineer">
+        <h3>Nishant Chauhan</h3>
+        <p>Senior Real Estate Expert</p>
+      </div>
+      <div class="member">
+        <img src="images/client_manager1.jpeg" alt="Designer">
+        <h3>Anshika Sharma</h3>
+        <p>Client Manager</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .founder {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.founder img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.founder img:hover {
+  transform: scale(1.05);
+}
+
+/* Gold Button */
+.founder-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  background-color: #d4af37; /* your uploaded gold color */
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+  transition: all 0.3s ease;
+}
+
+.founder-btn:hover {
+  background-color: #c19a2c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(212, 175, 55, 0.6);
+}
+
+.team-section { position: relative; background: url("uploads/team-bg.png") center/cover no-repeat; /* 🔹 your background image */ text-align: center; padding: 100px 20px; color: #fff; /* default white text for contrast */ overflow: hidden; }
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fffff; /* ✅ Purple heading */
+  margin-bottom: 50px;
+}
+
+/* Founder */
+.founder {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.founder img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.founder h2 {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.founder h4 {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Connector line */
+.connector-line {
+  width: 2px;
+  height: 40px;
+  background: #ccc;
+  opacity: 0.6;
+  margin: 20px auto;
+}
+
+/* HR + Manager */
+.managers {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.managers .member,
+.team-members .member {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+}
+
+/* Member Images */
+.managers .member img,
+.team-members .member img {
+  width: 180px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.member h3 {
+  font-size: 1.1rem;
+  color: #111;
+  margin: 8px 0 4px;
+}
+
+.member p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Team Members */
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .founder img {
+    width: 180px;
+    height: 180px;
+  }
+  .managers, .team-members {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .connector-line {
+    height: 25px;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+</style>
 
     <!-- CTA Banner -->
     <section class="pt-0 pb-0">

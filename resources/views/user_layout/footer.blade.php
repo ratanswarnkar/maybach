@@ -13,19 +13,19 @@
                 <div class="col-auto">
                   <div class="contact-info">
                     <p class="info-title">Tel</p>
-                    <h6 class="info-mail"><a href="tel: 04 235 8433">+91 7042529101</a></h6>
+                    <h6 class="info-mail"><a href="tel: 04 235 8433">+91-7289898686</a></h6>
                   </div>
                 </div>
 				<div class="col-auto">
                   <div class="contact-info">
                     <p class="info-title">Email</p>
-                    <h6 class="info-mail"><a href="mailto: info@lovinorealestate.com">Pranay.barthwal@gmail.com</a></h6>
+                    <h6 class="info-mail"><a href="mailto: info@lovinorealestate.com">Info@maybach.homes</a></h6>
                   </div>
                 </div>
 				<div class="col-auto">
                   <div class="contact-info">
                     <p class="info-title">Address</p>
-                    <h6 class="info-mail"><a href="#">NX-ONE, Gaur Chowk, Plot No. 17,T-3, 1314, Tech Zone IV, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201301</a></h6>
+                    <h6 class="info-mail"><a href="#">A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201306</a></h6>
                   </div>
                 </div>
               </div>
@@ -33,10 +33,10 @@
               <div class="social-widget">
                 <h6 class="text-white mb20">Follow us on social media</h6>
                 <div class="social-style1">
-                  <a href=""><i class="fa fa-facebook list-inline-item"></i></a>
-                  <a href=""><i class="fa fa-twitter list-inline-item"></i></a>
-                  <a href=""><i class="fa fa-instagram list-inline-item"></i></a>
-                  <a href=""><i class="fa fa-linkedin list-inline-item"></i></a>                </div>
+                  <a href="https://www.facebook.com/share/1BXHdP7BGw/?mibextid=wwXIfr"><i class="fa fa-facebook list-inline-item"></i></a>
+                  <a href="https://youtube.com/@maybachhomespropertygroup?si=ScR1UFbCKMdUeMd2"><i class="fa fa-youtube list-inline-item"></i></a>
+                  <a href="https://www.instagram.com/_maybachhomes_?igsh=MWc1Nm5sMmYyMzJuNw%3D%3D&utm_source=qr"><i class="fa fa-instagram list-inline-item"></i></a>
+                  <a href="https://www.linkedin.com/in/maybach-homes-property-group?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa fa-linkedin list-inline-item"></i></a>                </div>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
                     <h6 class="text-white mb25">Quick Links</h6>
                     <ul class="ps-0">
                        <li><a href="{{ asset('/')}}">Home</a></li>
-                      <li><a href="{{ asset('homeabout-us')}}">About Us</a></li>
+                      <li><a href="{{ asset('about-us')}}">About Us</a></li>
                        <li><a href="{{ asset('team')}}">Our Team</a></li>       
                       <li><a href="{{ asset('career')}}">Careers</a></li>
                       
@@ -71,11 +71,11 @@
                   <div class="link-style1 mb-3">
                     <h6 class="text-white mb25">Discover</h6>
                     <ul class="ps-0">
-                      <li><a href="property-city.php?city=Dubai">Noida</a></li>
-                      <li><a href="property-city.php?city=Abu Dhabi">Ghaziabad</a></li>
-                      <li><a href="property-city.php?city=Sharjah">Jaipur</a></li>
-                      <li><a href="property-city.php?city=Ajman">Mumbai</a></li>
-					  <li><a href="property-city.php?city=Ras Al Khaima">Bhopal</a></li>
+                      <li><a href="{{ asset('projects')}}">Noida</a></li>
+                      <li><a href="{{ asset('projects')}}">Ghaziabad</a></li>
+                      <li><a href="{{ asset('projects')}}">Jaipur</a></li>
+                      <li><a href="{{ asset('projects')}}">Mumbai</a></li>
+					  <li><a href="{{ asset('projects')}}">Bhopal</a></li>
                     </ul>
                   </div>
                 </div>
@@ -93,7 +93,7 @@
           </div>
           <div class="col-sm-6">
             <div class="text-center text-lg-end">
-              <p class="footer-menu ff-heading text-gray">Site By: <a target="_blank" class="text-gray" href="https://crystalimpact.ae/">The Maybach Homes</a> </p>
+              <p class="footer-menu ff-heading text-gray">Site By: <a target="_blank" class="text-gray" href="{{ asset('home')}}">The Maybach Homes</a> </p>
             </div>
           </div>
         </div>
@@ -121,14 +121,14 @@
 <nav id="menu" class="mm-menu mm-menu--offcanvas mm-menu--position-left-front mm-menu--theme-light" aria-label="Menu" aria-modal="true" role="dialog" inert="true">
       
     <div class="mm-panels"><div class="mm-panel mm-panel--noanimation mm-panel--opened" id="mm-1"><div class="mm-navbar"><a class="mm-navbar__title" tabindex="-1" aria-hidden="true"><span class="">Menu</span></a></div><ul class="mm-listview">
-        <li class="mm-listitem"><a href="index.php" class="mm-listitem__text">Home</a></li>
-		<li class="mm-listitem"><a href="about-us.php" class="mm-listitem__text">About Us</a></li>
-        <li class="mm-listitem"><a href="projects.php" class="mm-listitem__text">Projects</a></li>
-		<li class="mm-listitem"><a href="sale.php" class="mm-listitem__text">Re-Sale</a></li>
-		<li class="mm-listitem"><a href="rent.php" class="mm-listitem__text">Rent</a></li>	
-		<li class="mm-listitem"><a href="team.php" class="mm-listitem__text">Team</a></li>
-		<li class="mm-listitem"><a href="career.php" class="mm-listitem__text">Career</a></li>
-		<li class="mm-listitem"><a href="contact.php" class="mm-listitem__text">Contact Us</a></li>
+        <li class="mm-listitem"><a href="{{ asset('/')}}" class="mm-listitem__text">Home</a></li>
+		<li class="mm-listitem"><a href="{{ asset('about-us')}}" class="mm-listitem__text">About Us</a></li>
+        <li class="mm-listitem"><a href="{{ asset('projects')}}" class="mm-listitem__text">Projects</a></li>
+		<li class="mm-listitem"><a href="{{ asset('sale')}}" class="mm-listitem__text">Re-Sale</a></li>
+		<li class="mm-listitem"><a href="{{ asset('rent')}}" class="mm-listitem__text">Rent</a></li>	
+		<li class="mm-listitem"><a href="{{ asset('team')}}" class="mm-listitem__text">Team</a></li>
+		<li class="mm-listitem"><a href="{{ asset('career')}}" class="mm-listitem__text">Career</a></li>
+		<li class="mm-listitem"><a href="{{ asset('contact')}}" class="mm-listitem__text">Contact Us</a></li>
         
          
        

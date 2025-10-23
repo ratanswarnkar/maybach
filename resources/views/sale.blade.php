@@ -39,7 +39,7 @@
      
   </div>
     
-   <section class="advance-search-menu bg-white position-relative default-box-shadow2 pt15 pb5 bb1 dn-992">
+   <!-- <section class="advance-search-menu bg-white position-relative default-box-shadow2 pt15 pb5 bb1 dn-992">
       <div class="container-fluid">
           
           <div class="row">
@@ -141,7 +141,7 @@
                 </div>
 				
 </div></div></div></div>
-</section>				
+</section>				 -->
 				
 				
 <div class="advance-feature-modal">
