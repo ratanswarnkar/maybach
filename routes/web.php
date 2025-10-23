@@ -4,10 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LovinoController;
 use App\Http\Controllers\AdminController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home', [LovinoController::class, 'index']);
+
+Route::get('/', [LovinoController::class, 'index']);
 Route::get('/about-us',[LovinoController::class, 'aboutUs']);
 Route::get('/projects',[LovinoController::class, 'projects']);
 Route::get('/sale',[LovinoController::class, 'sale']);

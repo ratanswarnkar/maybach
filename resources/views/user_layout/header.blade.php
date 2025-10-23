@@ -144,7 +144,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
                 <a class="header-logo logo2" href="index.php"><img src="uploads/logo.jpg" alt="Header Logo" /></a>              </div>
               <!-- Responsive Menu Structure-->
               <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                <li class="visible_list"> <a class="list-item" href="{{ asset('home')}}"><span class="title">Home</span></a></li>
+                <li class="visible_list"> <a class="list-item" href="{{ asset('/')}}"><span class="title">Home</span></a></li>
                 <li class="megamenu_style"> <a class="list-item" href="{{ asset('about-us')}}"><span class="title">About Us</span></a></li>
 				<li class="megamenu_style"> <a class="list-item" href="{{ asset('projects')}}"><span class="title">Projects</span></a></li>
 				<li class="megamenu_style"> <a class="list-item" href="{{ asset('sale')}}"><span class="title">Re-Sale</span></a></li>

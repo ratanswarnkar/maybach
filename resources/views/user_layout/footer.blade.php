@@ -59,7 +59,7 @@
                   <div class="link-style1 mb-3">
                     <h6 class="text-white mb25">Quick Links</h6>
                     <ul class="ps-0">
-                       <li><a href="{{ asset('home')}}">Home</a></li>
+                       <li><a href="{{ asset('/')}}">Home</a></li>
                       <li><a href="{{ asset('homeabout-us')}}">About Us</a></li>
                        <li><a href="{{ asset('team')}}">Our Team</a></li>       
                       <li><a href="{{ asset('career')}}">Careers</a></li>

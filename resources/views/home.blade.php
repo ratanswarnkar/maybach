@@ -1,5 +1,95 @@
 @include('user_layout.header');
+<style>
+  .search-section {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 25px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  z-index: 99;
+}
 
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.tab {
+  padding: 12px 24px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #555;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  border-color: #000;
+  color: #000;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.dropdown {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f9f9f9;
+  font-size: 15px;
+  min-width: 200px;
+}
+
+.search-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  background: #333;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dropdown, .search-btn {
+    width: 100%;
+  }
+
+  .search-section {
+    top: 60%;
+    padding: 20px;
+  }
+}
+
+  </style>
  
   <div class="hiddenbar-body-ovelay"></div>
 
@@ -35,11 +125,51 @@
           <div class="row">
             <div class="col-xl-11 mx-auto">
               <div class="inner-banner-style1 text-center" style="z-index:99;">
+                <!-- ✅ Search Section -->
+<div class="search-section">
+  <!-- Tabs -->
+  <div class="tabs">
+    <div class="tab active">Projects</div>
+    <div class="tab">Sale</div>
+    <div class="tab">Rent</div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters">
+    <select class="dropdown">
+      <option>Property Type</option>
+      <option>Residential</option>
+      <option>Commercial</option>
+      <option>Plot</option>
+    </select>
+
+    <select class="dropdown">
+      <option>Select City</option>
+      <option>Delhi</option>
+      <option>Mumbai</option>
+      <option>Jaipur</option>
+      <option>Chennai</option>
+    </select>
+
+    <select class="dropdown">
+      <option>Available Projects</option>
+      <option>Luxury Villas</option>
+      <option>Affordable Homes</option>
+      <option>Smart Apartments</option>
+    </select>
+
+    <button class="search-btn">
+      🔍 Search
+    </button>
+  </div>
+</div>
+
                 <h6 class="hero-sub-title animate-up-1"> </h6>
                 <h2 class="hero-title animate-up-2">Invest In Your Dreams</h2>
-                <p class="hero-text fz15 animate-up-3"> </p>
-                <div class="advance-search-tab mt70 mt30-md mx-auto animate-up-3">
-                  <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
+                
+                <!-- <p class="hero-text fz15 animate-up-3"> </p>
+                <div class="advance-search-tab mt70 mt30-md mx-auto animate-up-3"> -->
+                  <!-- <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
                       <li class="nav-item" role="presentation">
                       <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Projects</button>
                     </li>
@@ -50,7 +180,7 @@
                       <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true">Rent</button>
                     </li>
                   
-                  </ul>
+                  </ul> -->
                   <div class="tab-content" id="myTabContent">
 				     
 					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
@@ -157,7 +287,7 @@
                             </div>
                           </div>
 						  </form> -->
-                        </div>
+                        <!-- </div>
 						</div>
 						</div>
 				  
@@ -331,8 +461,8 @@
 				
 				
 <div class="advance-feature-modal">
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     Modal -->
+    <!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
           <div class="modal-header pl30 pr30" style="padding: 10px 0;">
@@ -570,7 +700,7 @@
                      <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="max_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
                 <option value="">Max Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
             </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-18" aria-haspopup="listbox" aria-expanded="false" title="Max Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Max Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-18" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-18" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div><!-- selectpicker -->
-                </div>
+              <!--  </div>
               </div>
             </div>
           </div>
@@ -745,7 +875,7 @@
                      <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="max_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
                 <option value="">Max Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
             </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-26" aria-haspopup="listbox" aria-expanded="false" title="Max Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Max Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-26" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-26" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div><!-- selectpicker -->
-                </div>
+               <!-- </div>
               </div>
             </div>
           </div>
@@ -920,7 +1050,7 @@
                      <div class="dropdown bootstrap-select houzez-field-textual form-control elementor-size-sm"><select data-size="5" name="max_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker houzez-field-textual form-control elementor-size-sm">
                 <option value="">Max Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
             </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-34" aria-haspopup="listbox" aria-expanded="false" title="Max Price" data-id="form-field-field-max-price"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Max Price</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-34" aria-autocomplete="list" /></div><div class="inner show" role="listbox" id="bs-select-34" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div><!-- selectpicker -->
-                </div>
+               <!-- </div>
               </div>
             </div>
           </div>
@@ -965,7 +1095,7 @@
 				              </div>
             </div>
 			          </div>
-        </div>
+        </div> -->
         <a href="#explore-property">
           <div class="mouse_scroll animate-up-4">
             <img src="uploads/home-scroll.png" alt="" />          </div>
@@ -988,45 +1118,45 @@
             <div class="explore-apartment-slider  wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
                  
               <div class="col-lg-3 item">
-                <a href="property-category.php?type=Apartment">
+                <a href="{{ asset('projects')}}">
                   <div class="iconbox-style1" style="background-image: url(uploads/apartments.jpg);background-size: cover;">
                     <span class="icon"><img src="uploads/icon2.png" /></span>
                     <div class="iconbox-content">
                       <h6 class="title">Apartments</h6>
-                                            <p class="text mb-0">11 Properties</p>
+                                            <p class="text mb-0">Click Here</p> 
                                           </div>
                   </div>
                 </a>              </div>
 				   
               <div class="col-lg-3 item">
-                <a href="property-category.php?type=Office">
-                  <div class="iconbox-style1" style="background-image: url(uploads/Offices.jpg);background-size: cover;">
+                <a href="{{ asset('projects')}}">
+                  <div class="iconbox-style1" style="background-image: url(uploads/Offices.jfif);background-size: cover;">
                     <span class="icon"><img src="uploads/icon3.png" /></span>
                     <div class="iconbox-content">
                       <h6 class="title">Office</h6>
-                                            <p class="text mb-0">Coming Soon</p>
+                                            <p class="text mb-0">Click Here</p>
                                           </div>
                   </div>
                 </a>              </div>
 				   
               <div class="col-lg-3 item">
-                <a href="property-category.php?type=Villa">
+                <a href="{{ asset('projects')}}">
                   <div class="iconbox-style1" style="background-image: url(uploads/Villa.jpg);background-size: cover;">
                     <span class="icon"><img src="uploads/icon4.png" /></span>
                     <div class="iconbox-content">
                       <h6 class="title">Villa</h6>
-                                            <p class="text mb-0">2 Properties</p>
+                                            <p class="text mb-0">Click Here</p>
                                           </div>
                   </div>
                 </a>              </div>
 				   
               <div class="col-lg-3 item">
-                <a href="property-category.php?type=Townhouse">
-                  <div class="iconbox-style1" style="background-image: url(uploads/Townhouse.jpg);background-size: cover;">
+                <a href="{{ asset('projects')}}">
+                  <div class="iconbox-style1" style="background-image: url(uploads/Townhouse.jfif);background-size: cover;">
                     <span class="icon"><img src="uploads/icon5.png" /></span>
                     <div class="iconbox-content">
                       <h6 class="title">Townhouse</h6>
-                                            <p class="text mb-0">3 Properties</p>
+                                            <p class="text mb-0">Click Here</p>
                                           </div>
                   </div>
                 </a>              </div>
@@ -2381,6 +2511,18 @@
       </div>
        
     </section>
+    <script>
+      
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+    });
+  });
+
+
+      </script>
     @include('user_layout.footer');
   <!-- Our CTA --> 
   
