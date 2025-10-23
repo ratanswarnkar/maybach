@@ -640,24 +640,24 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/p11.webp" alt="" /></a>
-					   <div class="list-price">AED  1,300,000 </div>
+                      <a href="{{ asset('p11details')}}"><img class="w-100" src="uploads/p11.webp" alt="" /></a>
+					   <div class="list-price"></div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=249&amp;title=Al Zahya">Al Zahya</a></h6>
-                      <p class="list-text">Ajman</p>
-                      <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
-                      </div>
+                      <h6 class="list-title"><a href="{{ asset('p11details')}}">CRC Maesta, Sector 1, Greater Noida West</a></h6>
+                      <p class="list-text">Greater Noida West</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-shower"></span>7 bath</a>
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
+                      </div> -->
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=249&amp;title=Al Zahya"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p11details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -665,24 +665,24 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/p12.webp" alt="" /></a>
-					   <div class="list-price">AED  1,330,000 </div>
+                      <a href="{{ asset('p12details')}}"><img class="w-100" src="uploads/p12.webp" alt="" /></a>
+					   <div class="list-price"></div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=250&amp;title=Al Yasmeen Villa">Al Yasmeen Villa</a></h6>
-                      <p class="list-text">Ajman</p>
-                      <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
-                      </div>
+                      <h6 class="list-title"><a href="{{ asset('p12details')}}">SPJ Vedatam, Sector 14, Gurgaon</a></h6>
+                      <p class="list-text">Gurgaon</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
+                        <a href="{{ asset('p12details')}}"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="{{ asset('p12details')}}"><span class="fa fa-shower"></span>7 bath</a>
+                        <a href="{{ asset('p12details')}}"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
+                      </div> -->
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=250&amp;title=Al Yasmeen Villa"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p12details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -690,74 +690,124 @@
                 </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="{{ asset('p10details')}}"><img class="w-100" src="uploads/p13.webp" alt="" /></a>
-					   <div class="list-price">AED  997 </div>
+                      <a href="{{ asset('p13details')}}"><img class="w-100" src="uploads/p13.webp" alt="" /></a>
+					   <div class="list-price"></div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="{{ asset('p10details')}}">Maya 2BHK</a></h6>
-                      <p class="list-text">Dubai land</p>
-                      <div class="list-meta d-flex align-items-center">
+                      <h6 class="list-title"><a href="{{ asset('p10details')}}">Westway Central Ikon, Sector 105, Noida</a></h6>
+                      <p class="list-text">Noida</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
+                        <a href="{{ asset('p13details')}}"><span class="fa fa-bed"></span>2 bed</a>
+                        <a href="{{ asset('p13details')}}"><span class="fa fa-shower"></span>2 bath</a>
+                        <a href="{{ asset('p13details')}}"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
+                      </div> -->
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="for-what">For Sale</span>
+                        <div class="icons d-flex align-items-center">
+                          
+                         <span class="project-type"><a href="{{ asset('p13details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 salessection">
+                    <div class="list-thumb">
+                      <a href="{{ asset('p11details')}}"><img class="w-100" src="uploads/p14.webp" alt="" /></a>
+					   <div class="list-price"></div>
+	                   
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p11details')}}">Sikka Skyhome, Sector 143B, Noida</a></h6>
+                      <p class="list-text">Noida</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-shower"></span>7 bath</a>
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
+                      </div> -->
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="for-what">For Sale</span>
+                        <div class="icons d-flex align-items-center">
+                          
+                         <span class="project-type"><a href="{{ asset('p11details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 salessection">
+                    <div class="list-thumb">
+                      <a href="{{ asset('p15details')}}"><img class="w-100" src="uploads/p15.webp" alt="" /></a>
+					   <div class="list-price"></div>
+	                   
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p15details')}}">AIPL Joy District, Sector 88, Gurugram</a></h6>
+                      <p class="list-text">Gurugram</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
+                        <a href="{{ asset('p15details')}}"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="{{ asset('p15details')}}"><span class="fa fa-shower"></span>7 bath</a>
+                        <a href="{{ asset('p15details')}}"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
+                      </div> -->
+                      <hr class="mt-2 mb-2" />
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="for-what">For Sale</span>
+                        <div class="icons d-flex align-items-center">
+                          
+                         <span class="project-type"><a href="{{ asset('p15details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
+                  <div class="listing-style1 salessection">
+                    <div class="list-thumb">
+                      <a href="{{ asset('p16details')}}"><img class="w-100" src="uploads/p16.webp" alt="" /></a>
+					   <div class="list-price"></div>
+	                   
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('p16details')}}">CRC The Flagship, Sector 140A, Noida</a></h6>
+                      <p class="list-text">Noida</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
                         <a href="{{ asset('p10details')}}"><span class="fa fa-bed"></span>2 bed</a>
                         <a href="{{ asset('p10details')}}"><span class="fa fa-shower"></span>2 bath</a>
                         <a href="{{ asset('p10details')}}"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
-                      </div>
+                      </div> -->
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="{{ asset('p10details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p16details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
+                </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/p14.webp" alt="" /></a>
+                      <a href="{{ asset('p11details')}}"><img class="w-100" src="uploads/p17.webp" alt="" /></a>
 					   <div class="list-price">AED  1,300,000 </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=249&amp;title=Al Zahya">Al Zahya</a></h6>
+                      <h6 class="list-title"><a href="{{ asset('p11details')}}">Al Zahya</a></h6>
                       <p class="list-text">Ajman</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-shower"></span>7 bath</a>
+                        <a href="{{ asset('p11details')}}"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=249&amp;title=Al Zahya"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 salessection">
-                    <div class="list-thumb">
-                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/p15.webp" alt="" /></a>
-					   <div class="list-price">AED  1,330,000 </div>
-	                   
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=250&amp;title=Al Yasmeen Villa">Al Yasmeen Villa</a></h6>
-                      <p class="list-text">Ajman</p>
-                      <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
-                      </div>
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
-                        <div class="icons d-flex align-items-center">
-                          
-                         <span class="project-type"><a href="property.php?id=250&amp;title=Al Yasmeen Villa"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p11details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -765,74 +815,24 @@
                 </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="{{ asset('p10details')}}"><img class="w-100" src="uploads/p16.webp" alt="" /></a>
-					   <div class="list-price">AED  997 </div>
+                      <a href="{{ asset('p16details')}}"><img class="w-100" src="uploads/p16.webp" alt="" /></a>
+					   <div class="list-price"></div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="{{ asset('p10details')}}">Maya 2BHK</a></h6>
-                      <p class="list-text">Dubai land</p>
-                      <div class="list-meta d-flex align-items-center">
-                        <a href="{{ asset('p10details')}}"><span class="fa fa-bed"></span>2 bed</a>
-                        <a href="{{ asset('p10details')}}"><span class="fa fa-shower"></span>2 bath</a>
-                        <a href="{{ asset('p10details')}}"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
-                      </div>
+                      <h6 class="list-title"><a href="{{ asset('p16details')}}">CRC The Flagship, Sector 140A, Noida</a></h6>
+                      <p class="list-text">Noida</p>
+                      <!-- <div class="list-meta d-flex align-items-center">
+                        <a href="{{ asset('p12details')}}"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="{{ asset('p12details')}}"><span class="fa fa-shower"></span>7 bath</a>
+                        <a href="{{ asset('p12details')}}"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
+                      </div> -->
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="{{ asset('p10details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 salessection">
-                    <div class="list-thumb">
-                      <a href="property.php?id=249&amp;title=Al Zahya"><img class="w-100" src="uploads/p17.webp" alt="" /></a>
-					   <div class="list-price">AED  1,300,000 </div>
-	                   
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=249&amp;title=Al Zahya">Al Zahya</a></h6>
-                      <p class="list-text">Ajman</p>
-                      <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=249&amp;title=Al Zahya"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
-                      </div>
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
-                        <div class="icons d-flex align-items-center">
-                          
-                         <span class="project-type"><a href="property.php?id=249&amp;title=Al Zahya"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 salessection">
-                    <div class="list-thumb">
-                      <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><img class="w-100" src="uploads/p18.webp" alt="" /></a>
-					   <div class="list-price">AED  1,330,000 </div>
-	                   
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=250&amp;title=Al Yasmeen Villa">Al Yasmeen Villa</a></h6>
-                      <p class="list-text">Ajman</p>
-                      <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=250&amp;title=Al Yasmeen Villa"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
-                      </div>
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
-                        <div class="icons d-flex align-items-center">
-                          
-                         <span class="project-type"><a href="property.php?id=250&amp;title=Al Yasmeen Villa"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('p16details')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -1383,7 +1383,7 @@
   box-shadow: 0 6px 18px rgba(212, 175, 55, 0.6);
 }
 
-.team-section { position: relative; background: url("uploads/team-bg.png") center/cover no-repeat; /* 🔹 your background image */ text-align: center; padding: 100px 20px; color: #fff; /* default white text for contrast */ overflow: hidden; }
+.team-section { position: relative; background: url("uploads/team-bg1.png") center/cover no-repeat; /* 🔹 your background image */ text-align: center; padding: 100px 20px; color: #fff; /* default white text for contrast */ overflow: hidden; }
 
 .section-title {
   font-size: 2.2rem;

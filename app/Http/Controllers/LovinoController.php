@@ -83,4 +83,28 @@ class LovinoController extends Controller
     {
         return view('p10details');
     }
+      public function p11details()
+    {
+        return view('p11details');
+    }
+      public function p12details()
+    {
+        return view('p12details');
+    }
+    public function p13details()
+    {
+        return view('p13details');
+    }
+    public function p14details()
+    {
+        return view('p14details');
+    }
+    public function p15details()
+    {
+        return view('p15details');
+    }
+    public function p16details()
+    {
+        return view('p16details');
+    }
 }

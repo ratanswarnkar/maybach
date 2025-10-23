@@ -148,8 +148,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
                 <li class="megamenu_style"> <a class="list-item" href="{{ asset('about-us')}}"><span class="title">About Us</span></a></li>
 				<li class="megamenu_style"> <a class="list-item" href="{{ asset('projects')}}"><span class="title">Projects</span></a></li>
 				<li class="megamenu_style"> <a class="list-item" href="{{ asset('sale')}}"><span class="title">Re-Sale</span></a></li>
-				<li class="megamenu_style"> <a class="list-item" href="{{ asset('rent')}}"><span class="title">Rent</span></a></li>
-                 
+				<!-- <li class="megamenu_style"> <a class="list-item" href="{{ asset('rent')}}"><span class="title">Rent</span></a></li> -->
+                 <li class="visible_list"> <a class="list-item" href="{{ asset('blog')}}"><span class="title">Blog</span></a></li>
 				<li class="visible_list"> <a class="list-item" href="{{ asset('team')}}"><span class="title">Team</span></a></li>
                 
                 <li class="visible_list"> <a class="list-item" href="{{ asset('career')}}"><span class="title">Career</span></a></li>

@@ -24,6 +24,18 @@ Route::get('/p7details',[LovinoController::class, 'p7details']);
 Route::get('/p8details',[LovinoController::class, 'p8details']);
 Route::get('/p9details',[LovinoController::class, 'p9details']);
 Route::get('/p10details',[LovinoController::class, 'p10details']);
+Route::get('/p11details',[LovinoController::class, 'p11details']);
+Route::get('/p12details',[LovinoController::class, 'p12details']);
+Route::get('/p13details',[LovinoController::class, 'p13details']);
+Route::get('/p14details',[LovinoController::class, 'p14details']);
+Route::get('/p15details',[LovinoController::class, 'p15details']);
+Route::get('/p16details',[LovinoController::class, 'p16details']);
+
+
+
+
+
+
 
 
 

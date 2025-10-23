@@ -101,7 +101,7 @@
   box-shadow: 0 6px 18px rgba(212, 175, 55, 0.6);
 }
 
-.team-section { position: relative; background: url("uploads/team-bg.png") center/cover no-repeat; /* 🔹 your background image */ text-align: center; padding: 100px 20px; color: #fff; /* default white text for contrast */ overflow: hidden; }
+.team-section { position: relative; background: url("uploads/team-bg1.png") center/cover no-repeat; /* 🔹 your background image */ text-align: center; padding: 100px 20px; color: #fff; /* default white text for contrast */ overflow: hidden; }
 
 .section-title {
   font-size: 2.2rem;
