@@ -455,17 +455,17 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="#"> <img class="w-100" src="uploads/p1.webp" alt=""></a>
+                     <a href="{{ asset('p1details')}}"> <img class="w-100" src="uploads/p1.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-12-30</div>                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="#">Serene Garden 2BHK</a></h6>
-                      <p class="list-text">Discovery Gardens</p>
+                      <h6 class="list-title"><a href="{{ asset('p1details')}}">M3M Jewel Crest Avenue, Sector 97, Noida</a></h6>
+                      <p class="list-text">Noida</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p1details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Serene Garden 2BHK</a>
+                          <a href="{{ asset('p1details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> M3M Jewel Crest Avenue</a>
                          
                         </div>
                       </div>
@@ -477,19 +477,19 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=235&title=Serene Garden 1BHK"> <img class="w-100" src="uploads/p2.png" alt=""></a>
+                     <a href="{{ asset('p2details')}}"> <img class="w-100" src="uploads/p2.png" alt=""></a>
                       <div class="list-price top">Handover: 2025-12-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=235&title=Serene Garden 1BHK">Serene Garden 1BHK</a></h6>
-                      <p class="list-text">Discovery Gardens</p>
+                      <h6 class="list-title"><a href="{{ asset('p2details')}}">M3M Jacob & Co. Residences, Sector 97</a></h6>
+                      <p class="list-text">Noida</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=235&title=Serene Garden 1BHK">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p2details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=235&title=Serene Garden 1BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Serene Garden 1BHK</a>
+                          <a href="{{ asset('p2details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> M3M Jacob & Co. Residences</a>
                          
                         </div>
                       </div>
@@ -501,17 +501,17 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=236&title=Serene Garden Studio"> <img class="w-100" src="uploads/p3.webp" alt=""></a>
+                     <a href="{{ asset('p3details')}}"> <img class="w-100" src="uploads/p3.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-12-30</div>                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=236&title=Serene Garden Studio">Serene Garden Studio</a></h6>
-                      <p class="list-text">Discovery Gardens</p>
+                      <h6 class="list-title"><a href="{{ asset('p3details')}}">Ekana Business Centre, Gomti Nagar</a></h6>
+                      <p class="list-text">Gomti Nagar Extension, Lucknow</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=236&title=Serene Garden Studio">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p3details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=236&title=Serene Garden Studio" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Serene Garden Studio</a>
+                          <a href="{{ asset('p3details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Ekana Business Centre</a>
                          
                         </div>
                       </div>
@@ -523,17 +523,17 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=240&title=Reportage Village 4B Town House"> <img class="w-100" src="uploads/p4.webp" alt=""></a>
+                     <a href="{{ asset('p4details')}}"> <img class="w-100" src="uploads/p4.webp" alt=""></a>
                       <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=240&title=Reportage Village 4B Town House">Reportage Village 4B Town House</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('p4details')}}">Sikka The Crown of Noida, Sector 143A</a></h6>
+                      <p class="list-text">Sector 143A, Noida (Greater Noida Expressway)</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=240&title=Reportage Village 4B Town House">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p4details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=240&title=Reportage Village 4B Town House" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Reportage Village 4B Town House</a>
+                          <a href="{{ asset('p4details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Sikka The Crown of Noida</a>
                          
                         </div>
                       </div>
@@ -545,17 +545,17 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=241&title=Reportage Village 3B Town House"> <img class="w-100" src="uploads/p5.webp" alt=""></a>
+                     <a href="{{ asset('p5details')}}"> <img class="w-100" src="uploads/p5.webp" alt=""></a>
                       <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=241&title=Reportage Village 3B Town House">Reportage Village 3B Town House</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('p5details')}}">Migsun 1 Destination, Sushant Golf City</a></h6>
+                      <p class="list-text">Lucknow</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=241&title=Reportage Village 3B Town House">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p5details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=241&title=Reportage Village 3B Town House" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Reportage Village 3B Town House</a>
+                          <a href="{{ asset('p5details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Migsun 1 Destination</a>
                          
                         </div>
                       </div>
@@ -567,17 +567,17 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=242&title=Reportage Village 2B Town House"> <img class="w-100" src="uploads/p6.webp" alt=""></a>
+                     <a href="{{ asset('p6details')}}"> <img class="w-100" src="uploads/p6.webp" alt=""></a>
                       <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=242&title=Reportage Village 2B Town House">Reportage Village 2B Town House</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('p6details')}}">Bhutani City Center 32, Sector 32, Noida</a></h6>
+                      <p class="list-text">Noida</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=242&title=Reportage Village 2B Town House">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p6details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=242&title=Reportage Village 2B Town House" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Reportage Village 2B Town House</a>
+                          <a href="{{ asset('p6details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Bhutani City Center 32</a>
                          
                         </div>
                       </div>
@@ -589,19 +589,19 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=243&title=Alpha 1BHK"> <img class="w-100" src="uploads/p7.webp" alt=""></a>
+                     <a href="{{ asset('p7details')}}"> <img class="w-100" src="uploads/p7.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-06-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=243&title=Alpha 1BHK">Alpha 1BHK</a></h6>
-                      <p class="list-text">Dubai</p>
+                      <h6 class="list-title"><a href="{{ asset('p7details')}}">M3M The Line, Sector 72, Noida</a></h6>
+                      <p class="list-text">Noida</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=243&title=Alpha 1BHK">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p7details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=243&title=Alpha 1BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 1BHK</a>
+                          <a href="{{ asset('p7details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> M3M The Line</a>
                          
                         </div>
                       </div>
@@ -613,19 +613,19 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=244&title=Alpha 2.5BHK"> <img class="w-100" src="uploads/p8.webp" alt=""></a>
+                     <a href="{{ asset('p8details')}}"> <img class="w-100" src="uploads/p8.webp" alt=""></a>
                       <div class="list-price top">Handover: 2025-06-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=244&title=Alpha 2.5BHK">Alpha 2.5BHK</a></h6>
-                      <p class="list-text">Dubai</p>
+                      <h6 class="list-title"><a href="{{ asset('p8details')}}">Migsun Food Lane, Sushant Golf City</a></h6>
+                      <p class="list-text">Lucknow</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=244&title=Alpha 2.5BHK">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p8details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=244&title=Alpha 2.5BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 2.5BHK</a>
+                          <a href="{{ asset('p8details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Migsun Food Lane</a>
                          
                         </div>
                       </div>
@@ -637,19 +637,19 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=245&title=Palm Beach Towers "> <img class="w-100" src="uploads/p9.webp" alt=""></a>
+                     <a href="{{ asset('p9details')}}"> <img class="w-100" src="uploads/p9.webp" alt=""></a>
                       <div class="list-price top">Handover: 2026-04-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=245&title=Palm Beach Towers ">Palm Beach Towers </a></h6>
-                      <p class="list-text">Palm Jumeirah</p>
+                      <h6 class="list-title"><a href="{{ asset('p9details')}}">EON Fairfox, Sector 140, Noida </a></h6>
+                      <p class="list-text">Noida</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=245&title=Palm Beach Towers ">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p9details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=245&title=Palm Beach Towers " style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Palm Beach Towers </a>
+                          <a href="{{ asset('p9details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> EON Fairfox </a>
                          
                         </div>
                       </div>
@@ -661,17 +661,17 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=246&title=Dolce Vita Executive"> <img class="w-100" src="uploads/p10.webp" alt=""></a>
+                     <a href="{{ asset('p10details')}}"> <img class="w-100" src="uploads/p10.webp" alt=""></a>
                       <div class="list-price top">Handover: 2026-06-30</div>                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=246&title=Dolce Vita Executive">Dolce Vita Executive</a></h6>
-                      <p class="list-text">Arjan</p>
+                      <h6 class="list-title"><a href="{{ asset('p10details')}}">Eldeco Whispers of Wonder (Wow)</a></h6>
+                      <p class="list-text">Sector 22D, Yamuna Expressway Noida</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=246&title=Dolce Vita Executive">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p10details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=246&title=Dolce Vita Executive" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Dolce Vita Executive</a>
+                          <a href="{{ asset('p10details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Eldeco Whispers of Wonder (Wow)</a>
                          
                         </div>
                       </div>
@@ -683,19 +683,19 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=247&title=Dolce Vita Premium Club"> <img class="w-100" src="uploads/p11.webp" alt=""></a>
+                     <a href="{{ asset('p11details')}}"> <img class="w-100" src="uploads/p11.webp" alt=""></a>
                       <div class="list-price top">Handover: 2026-06-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=247&title=Dolce Vita Premium Club">Dolce Vita Premium Club</a></h6>
-                      <p class="list-text">Arjan</p>
+                      <h6 class="list-title"><a href="{{ asset('p11details')}}">CRC Maesta, Sector 1, Greater Noida West</a></h6>
+                      <p class="list-text">Noida</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=247&title=Dolce Vita Premium Club">Off Plan</a></span>
+                        <span class="project-type"><a href="{{ asset('p11details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=247&title=Dolce Vita Premium Club" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Dolce Vita Premium Club</a>
+                          <a href="{{ asset('p11details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> CRC Maesta</a>
                          
                         </div>
                       </div>
@@ -707,19 +707,18 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="project-page.php?id=248&title=Wilton Park Studio"> <img class="w-100" src="uploads/p12.webp" alt=""></a>
+                     <a href="{{ asset('p12details')}}"> <img class="w-100" src="uploads/p12.webp" alt=""></a>
                       <div class="list-price top">Handover: 2023-09-30</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=248&title=Wilton Park Studio">Wilton Park Studio</a></h6>
-                      <p class="list-text">Meydan</p>
+                      <h6 class="list-title"><a href="{{ asset('p12details')}}">SPJ Vedatam, Sector 14, Gurgaon
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=248&title=Wilton Park Studio">Ready To Move</a></span>
+                        <span class="project-type"><a href="{{ asset('p12details')}}">Gurgaon</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=248&title=Wilton Park Studio" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Wilton Park Studio</a>
+                          <a href="{{ asset('p12details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> SPJ Vedatam</a>
                          
                         </div>
                       </div>

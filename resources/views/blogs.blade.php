@@ -360,13 +360,102 @@
           <div class="col-xl-12">
             <div class="mt30">
               <div class="text-center text-xl-start">
-                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Properties for Rent</h4>                
+                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Our Blogs</h4>                
               </div>
                
                
                
                <div class="row">
-                		
+                		  
+               
+                 	
+                <div class="col-sm-4">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('blogs')}}"> <img class="w-100" src="uploads/b1a.jpg" alt=""></a>
+                                                              </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('blogs')}}">How Commercial Spaces Enhance Urban Lifestyle in Noida</a></h6>
+                     
+                       
+                      <hr class="mt-2 mb-2">
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        
+                        <div class="icons d-flex align-items-center">
+                          
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>		
+
+                <div class="col-sm-4">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('blogs1')}}"> <img class="w-100" src="uploads/b2a.jpg" alt=""></a>
+                                                              </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('blogs1')}}">Noida's upcoming International Filmcity to be one of the world's best filmcity projects</a></h6>
+                     
+                       
+                      <hr class="mt-2 mb-2">
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        
+                        <div class="icons d-flex align-items-center">
+                          
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>		
+
+                <div class="col-sm-4">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('blogs2')}}"> <img class="w-100" src="uploads/b3a.jpg" alt=""></a>
+                                                              </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('blogs2')}}">
+
+Benefits of Investing in Real Estate During the Festive Season</a></h6>
+                     
+                       
+                      <hr class="mt-2 mb-2">
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        
+                        <div class="icons d-flex align-items-center">
+                          
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>		
+
+                <div class="col-sm-4">
+                  <div class="listing-style1 projectssection">
+                    <div class="list-thumb">
+                     <a href="{{ asset('blogs3')}}"> <img class="w-100" src="uploads/b4a.jpg" alt=""></a>
+                                                              </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('blogs3')}}">
+What Are 5 Things You Can Do to Secure Your Financial Future?</a></h6>
+                     
+                       
+                      <hr class="mt-2 mb-2">
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        
+                        <div class="icons d-flex align-items-center">
+                          
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>		
+				
 				 
 			 
 				

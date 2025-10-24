@@ -25,7 +25,7 @@ class LovinoController extends Controller
     }
      public function rent()
     {
-        return view('rent');
+        return view('blogs');
     }
     public function team()
     {
@@ -106,5 +106,21 @@ class LovinoController extends Controller
     public function p16details()
     {
         return view('p16details');
+    }
+      public function blogs()
+    {
+        return view('blog');
+    }
+     public function blogs1()
+    {
+        return view('blog1');
+    }
+     public function blogs2()
+    {
+        return view('blog2');
+    }
+    public function blogs3()
+    {
+        return view('blog3');
     }
 }

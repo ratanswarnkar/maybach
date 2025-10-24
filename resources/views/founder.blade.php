@@ -150,44 +150,37 @@
       </div>
 
       <div class="founder-info">
-        <h2>Mr. Pranay Barthwal</h2>
-        <h4>Founder / Managing Director</h4>
+       <h2>Mr. Pranay Barthwal</h2>
+<h4>Founder / Managing Director</h4>
 
-        <p>
-          In addition to being a founding director of <strong>Homes 4 Life Pty Ltd</strong> and <strong>The P Group Holding</strong>, 
-          Pranay is a real estate investor and coach to his customers. With over 5 years of expertise investing in real estate, 
-          Pranay has owned a multimillion-dollar portfolio spread across several nations, including Australia, Dubai, Abu Dhabi, and India.
-        </p>
+<p>
+  As the Founder and Managing Director of <strong>The P Group Holding</strong>, <strong>Homes 4 Life Pty Ltd</strong>, and <strong>Maybach Homes Property Group Pty Ltd</strong>, I have established a diversified portfolio of ventures driven by a single objective — to create sustainable value through strategic real estate investment and development.
+</p>
 
-        <p>
-          Pranay hails from a family of businesspeople that run multimillion-dollar companies worldwide in a variety of industries, 
-          including information technology (IT), hospitality (hotels and resorts), and Indo-Chinese ventures across India.
-        </p>
+<p>
+  With extensive experience across global real estate markets, my journey has been defined by a commitment to enabling both individual and institutional investors to achieve long-term financial growth and security. My entrepreneurial foundation is rooted in a family legacy exceeding three decades, with successful enterprises across real estate, technology, hospitality, and international trade.
+</p>
 
-        <p>
-          Since he was young, Pranay has been passionate about real estate because his family has always guided him in this field. 
-          Pranay and his family have been involved in real estate investing for over four decades.
-        </p>
+<p>
+  Over the years, I have developed and managed a multimillion-dollar property portfolio spanning Australia, the United Kingdom, the United Arab Emirates, Oman, Indonesia, and India, encompassing residential, commercial, and mixed-use developments.
+</p>
 
-        <p>
-          He holds a Bachelor's degree in Computer Science and has studied Business Analytics, Artificial Intelligence, and Cyber Security. 
-          He also has three years of experience working in top management for large companies like Synergy Tech and Hudson Group around the world.
-        </p>
+<p>
+  Academically, I hold a Bachelor’s degree in Computer Science, supported by advanced studies in Business Analytics, Artificial Intelligence, and Cyber Security in the UAE, UK, and Australia — a blend of disciplines that strengthens our data-driven approach to investment and growth.
+</p>
 
-        <p>
-          After moving to Dubai in 2016, Pranay began his career in real estate and later, in 2023, founded a renowned real estate company in Sydney, Australia. 
-          In the beginning, he collaborated with successful teams and individuals to gain a deep understanding of the Australian and UAE real estate markets and cycles.
-        </p>
+<p>
+  In 2020, I founded <strong>The P Group Holdings</strong> as a strategic holding company to consolidate and expand our interests in real estate, technology, and global investments.
+</p>
 
-        <p>
-          Combining his years of expertise as a successful real estate agent, Pranay quickly made a reputation for himself in the global real estate industry. 
-          With the goal of helping people achieve financial independence and retire comfortably through property investments, 
-          Pranay founded <strong>The P Group Holding</strong>, pursuing his lifelong passion for real estate investing.
-        </p>
+<p>
+  <strong>Our Vision:</strong> To empower individuals and institutions to build sustainable wealth and achieve financial independence through real estate.
+</p>
+
       </div>
     </div>
 
-    <a href="index.html" class="back-btn">← Back to Home</a>
+    <a href="{{ asset('/')}}" class="back-btn">← Back to Home</a>
   </section>
 
   <!-- ====== FOOTER (Your footer goes below this section) ====== -->

@@ -13,7 +13,7 @@
                 <div class="col-auto">
                   <div class="contact-info">
                     <p class="info-title">Tel</p>
-                    <h6 class="info-mail"><a href="tel: 04 235 8433">+91-7289898686</a></h6>
+                    <h6 class="info-mail"><a href="tel: 04 235 8433">+91-8588844441</a></h6>
                   </div>
                 </div>
 				<div class="col-auto">

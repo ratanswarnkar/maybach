@@ -126,43 +126,43 @@
             <div class="col-xl-11 mx-auto">
               <div class="inner-banner-style1 text-center" style="z-index:99;">
                 <!-- ✅ Search Section -->
-<div class="search-section">
-  <!-- Tabs -->
-  <div class="tabs">
-    <div class="tab active">Projects</div>
-    <div class="tab">Sale</div>
-    <div class="tab">Rent</div>
+<form action="{{ asset('projects')}}" method="GET">
+  <div class="search-section">
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab active">Projects</div>
+      <div class="tab">Sale</div>
+      <div class="tab">Rent</div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+      <select name="propertyType" class="dropdown">
+        <option value="">Property Type</option>
+        <option value="residential">Residential</option>
+        <option value="commercial">Commercial</option>
+        <option value="plot">Plot</option>
+      </select>
+
+      <select name="city" class="dropdown">
+        <option value="">Select City</option>
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="jaipur">Jaipur</option>
+        <option value="chennai">Chennai</option>
+      </select>
+
+      <select name="project" class="dropdown">
+        <option value="">Available Projects</option>
+        <option value="luxury-villas">Luxury Villas</option>
+        <option value="affordable-homes">Affordable Homes</option>
+        <option value="smart-apartments">Smart Apartments</option>
+      </select>
+
+      <button type="submit" class="search-btn">🔍 Search</button>
+    </div>
   </div>
-
-  <!-- Filters -->
-  <div class="filters">
-    <select class="dropdown">
-      <option>Property Type</option>
-      <option>Residential</option>
-      <option>Commercial</option>
-      <option>Plot</option>
-    </select>
-
-    <select class="dropdown">
-      <option>Select City</option>
-      <option>Delhi</option>
-      <option>Mumbai</option>
-      <option>Jaipur</option>
-      <option>Chennai</option>
-    </select>
-
-    <select class="dropdown">
-      <option>Available Projects</option>
-      <option>Luxury Villas</option>
-      <option>Affordable Homes</option>
-      <option>Smart Apartments</option>
-    </select>
-
-    <button class="search-btn">
-      🔍 Search
-    </button>
-  </div>
-</div>
+</form>
 
                 <h6 class="hero-sub-title animate-up-1"> </h6>
                 <h2 class="hero-title animate-up-2">Invest In Your Dreams</h2>

@@ -46,15 +46,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 <!-- Floating Contact Box (Right Side with Icons) -->
 <div class="contact-float-right">
   <!-- WhatsApp -->
-  <a href="https://wa.me/917042529101" target="_blank" class="icon whatsapp">
+  <a href="https://wa.me/918588844441" target="_blank" class="icon whatsapp">
     <i class="fab fa-whatsapp"></i>
-    <span class="text">+91 70425 29101</span>
+    <span class="text">+91 8588844441</span>
   </a>
 
   <!-- Phone -->
-  <a href="tel:+917042529101" class="icon phone">
+  <a href="tel:+918588844441" class="icon phone">
     <i class="fas fa-phone-alt"></i>
-    <span class="text">+91 70425 29101</span>
+    <span class="text">+91 8588844441</span>
   </a>
 
   <!-- Email -->
@@ -147,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
                 <li class="visible_list"> <a class="list-item" href="{{ asset('/')}}"><span class="title">Home</span></a></li>
                 <li class="megamenu_style"> <a class="list-item" href="{{ asset('about-us')}}"><span class="title">About Us</span></a></li>
 				<li class="megamenu_style"> <a class="list-item" href="{{ asset('projects')}}"><span class="title">Projects</span></a></li>
-				<li class="megamenu_style"> <a class="list-item" href="{{ asset('sale')}}"><span class="title">Re-Sale</span></a></li>
+				<!-- <li class="megamenu_style"> <a class="list-item" href="{{ asset('sale')}}"><span class="title">Re-Sale</span></a></li> -->
 				<!-- <li class="megamenu_style"> <a class="list-item" href="{{ asset('rent')}}"><span class="title">Rent</span></a></li> -->
                  <li class="visible_list"> <a class="list-item" href="{{ asset('blog')}}"><span class="title">Blog</span></a></li>
 				<li class="visible_list"> <a class="list-item" href="{{ asset('team')}}"><span class="title">Team</span></a></li>

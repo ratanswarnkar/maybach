@@ -62,7 +62,7 @@
         <div class="row wow fadeInUp" data-wow-delay="300ms">
           <div class="col-lg-6">
             <h2>We're on a Mission to Change <br class="d-none d-lg-block"> View of Real Estate Field.</h2>
-			<img src="images/aboutus.jpeg" style="width: 90%;">
+			<img src="uploads/aboutus.jpg" style="width: 90%;">
           </div>
           <div class="col-lg-6">
             <p class="text mb25">Maybach Homes – Where Luxury Meets Lifestyle

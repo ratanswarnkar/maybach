@@ -36,7 +36,7 @@
      
   </div>
     
-  <section class="breadcumb-section2 p-0" style=" background:url(images/ban-career.JPG); background-position:center; background-size: cover;">
+  <section class="breadcumb-section2 p-0" style=" background:url(uploads/about_banner.png); background-position:center; background-size: cover;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -66,12 +66,11 @@
 We are always looking for talented professionals with real estate industry experience. currently we have openings in Sales &amp; administration.
 </p>
 <p class="text">
-We would like to encourage talented professionals to apply with relevant experience. Send your CV at <a href="mailto:cv@lovinorealestate.ae">cv@lovinorealestate.ae</a>
+We would like to encourage talented professionals to apply with relevant experience. Send your CV at <a href="mailto:cv@lovinorealestate.ae">Info@maybach.homes</a>
 </p>
 
 <h6 class="fz17 mb30">Visit Us</h6>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.5292087645157!2d55.3860612727696!3d25.117793285786263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f646e13a471fb%3A0xbaab836840a8317a!2sSIT%20Tower%20-%20Dubai%20Silicon%20Oasis%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1687440589808!5m2!1sen!2s" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d22147.496453132222!2d77.42376092946665!3d28.60774970422691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA%20-1314%2C%20Tower%203%2C%20NX%20ONE%2C%20TECH%20ZONE%20-%204%2C%20Amrapali%20Dream%20Valley%2C%20Greater%20Noida%2C%20Uttar%20Pradesh%20201306!5e1!3m2!1sen!2sin!4v1761293518830!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 <!--<div class="home8-contact-form default-box-shadow1 bdrs12 bdr1 p30 mb30-md bgc-white">
               <h4 class="form-title mb25">Want To Join Us? Get in touch!</h4>
               <form class="form-style1">
@@ -136,13 +135,13 @@ We are here to assist you in finding successful real estate investment possibili
                 <div class="list-news-style d-flex align-items-center justify-content-between mb10">
                   <div class="flex-shrink-0"><h6 class="fz14 mb-0">Address</h6></div>
                   <div class="news-content flex-shrink-1 ms-3 text-end">
-                    <p class="text mb-0 fz14">1813, SIT Tower, Dubai Silicon Oasis, Dubai, UAE</p>
+                    <p class="text mb-0 fz14"><br><br>A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201306</p>
                   </div>
                 </div>
                 <div class="list-news-style d-flex align-items-center justify-content-between mb10">
                   <div class="flex-shrink-0"><h6 class="fz14 mb-0">Phone</h6></div>
                   <div class="news-content flex-shrink-1 ms-3 text-end">
-                    <p class="text mb-0 fz14">04 235 8433</p>
+                    <p class="text mb-0 fz14">+91-8588844441</p>
                   </div>
                 </div>
                  
@@ -151,7 +150,7 @@ We are here to assist you in finding successful real estate investment possibili
                 <div class="list-news-style d-flex align-items-center justify-content-between">
                   <div class="flex-shrink-0"><h6 class="fz14 mb-0">Email Us</h6></div>
                   <div class="news-content flex-shrink-1 ms-3 text-end">
-                    <p class="text mb-0 fz14">info@lovinorealestate.ae</p>
+                    <p class="text mb-0 fz14">Info@maybach.homes</p>
                   </div>
                 </div>
               </div>
@@ -179,8 +178,11 @@ We are here to assist you in finding successful real estate investment possibili
               <div class="cta-style2">
                 <h2 class="cta-title">Need help? Talk to our expert</h2>
                 <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
-                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
-				<a href="tel: 055 225 4741" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>055 225 4741</a> 
+                <a href="{{ asset('contact')}}" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
+				<a href="tel: A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201306" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>
++91-8588844441
+
+</a> 
               </div>
             </div>
           </div>
