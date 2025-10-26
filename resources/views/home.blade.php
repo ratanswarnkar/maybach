@@ -101,7 +101,7 @@
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
             <a class="menubar" href="#menu"><img src="uploads/mobile-dark-nav-icon.svg" alt="" /></a>
-            <a class="mobile_logo" href="index.php"><img src="uploads/logo.png" alt="" /></a>
+            <a class="mobile_logo" href="index.php"><img src="uploads/laga.png" alt="" /></a>
        <!--     <a href="page-login.php"><span class="icon fz18 fa fa-user-circle"></span></a>  -->        </div>
         </div>
       </div>
@@ -118,7 +118,7 @@
     <section class="home-banner-style1 p0">
 	
       <div class="home-style1">
-	  <video class="home-screen__step-1__bg__video" autoplay="" muted="" loop="" playsinline="" style="position: fixed;left: 0;bottom: 0;width: 100%;">
+	  <video class="home-screen__step-1__bg__video" autoplay="" muted="" loop="" playsinline="" style="position: fixed;left: 0;bottom: 0;width: auto;">
         <source src="uploads/LovinoRealEstate.mp4" type="video/mp4" />
       </video>
         <div class="container">

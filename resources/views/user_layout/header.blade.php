@@ -65,6 +65,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 </div>
 
 <style>
+  /* =============== Navbar Styling =============== */
+.bg-black {
+  background-color: #000 !important;
+}
+
+.text-gold, .navbar-toggler {
+  color: #d4af37 !important;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #d4af37 !important;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: #000;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #c19e2f;
+  color: #000;
+}
+
 .contact-float-right {
   position: fixed;
   top: 40%;
@@ -114,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   opacity: 0;
   transform: translateX(10px);
   transition: all 0.3s ease;
-  font-size: 14px;
+  font-size: 30px;
   font-weight: bold;
   pointer-events: none;
 }
@@ -132,40 +165,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   <div class="preloader" style="display: none;"></div>
   
  
-  <header class="header-nav nav-homepage-style stricky main-menu slideIn animated">
-    <!-- Ace Responsive Menu -->
-    <nav class="posr"> 
-      <div class="container posr menu_bdrt1">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-auto">
-            <div class="d-flex align-items-center justify-content-between">
-              <div class="logos mr40">
-                <a class="header-logo logo1" href="index.php"><img src="uploads/logo.jpg" alt="Header Logo" /></a>
-                <a class="header-logo logo2" href="index.php"><img src="uploads/logo.jpg" alt="Header Logo" /></a>              </div>
-              <!-- Responsive Menu Structure-->
-              <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                <li class="visible_list"> <a class="list-item" href="{{ asset('/')}}"><span class="title">Home</span></a></li>
-                <li class="megamenu_style"> <a class="list-item" href="{{ asset('about-us')}}"><span class="title">About Us</span></a></li>
-				<li class="megamenu_style"> <a class="list-item" href="{{ asset('projects')}}"><span class="title">Projects</span></a></li>
-				<!-- <li class="megamenu_style"> <a class="list-item" href="{{ asset('sale')}}"><span class="title">Re-Sale</span></a></li> -->
-				<!-- <li class="megamenu_style"> <a class="list-item" href="{{ asset('rent')}}"><span class="title">Rent</span></a></li> -->
-                 <li class="visible_list"> <a class="list-item" href="{{ asset('blog')}}"><span class="title">Blog</span></a></li>
-				<li class="visible_list"> <a class="list-item" href="{{ asset('team')}}"><span class="title">Team</span></a></li>
-                
-                <li class="visible_list"> <a class="list-item" href="{{ asset('career')}}"><span class="title">Career</span></a></li>
-				 
-              </ul>
-            </div>
-          </div>
-          <div class="col-auto">
-            <div class="d-flex align-items-center">
-              <a class="ud-btn add-property menu-btn bdrs60 mx-2 mx-xl-4" href="{{ asset('contact')}}">Contact Us <i class="fa fa-long-arrow-right"></i></a>
-                 </div>
-          </div>
-        </div>
+  <!-- ✅ Responsive Navbar -->
+<header class="main-header">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2 fixed-top shadow-sm">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="{{ asset('/') }}">
+        <img src="uploads/laga.png" alt="Logo" height="50" class="me-2" style="height:89px;">
+      </a>
+
+      <!-- Mobile Toggle -->
+      <button class="navbar-toggler text-gold border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Menu Links -->
+      <div class="collapse navbar-collapse" id="mainNavbar" style="height: 100px">
+        <ul class="navbar-nav ms-auto align-items-lg-center" style="font-size:23px;">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ asset('/') }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ asset('about-us') }}">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ asset('projects') }}">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ asset('blog') }}">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ asset('team') }}">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ asset('career') }}">Career</a>
+          </li>
+
+          <!-- Contact Button -->
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-gold fw-semibold px-4 py-2" href="{{ asset('contact') }}">
+              Contact Us <i class="fa fa-long-arrow-right ms-1"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
+
  
   <div class="signup-modal">
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -217,10 +264,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   <!-- 🟡 Floating Chatbot -->
 <div class="chatbot-wrapper">
   <!-- Floating Button -->
-  <div class="chatbot-float" onclick="toggleChat()">
-    <span class="wave">👋</span>
-    <span class="chat-text">Hi, we’re here!</span>
-  </div>
+  <!-- Floating Button -->
+<div class="chatbot-float" onclick="toggleChat()">
+  <img src="uploads/love-cute.webp" alt="Chatbot Greeting" class="chatbot-gif">
+  <span class="chat-text">Hi, we’re here!</span>
+</div>
+
 
   <!-- Chat Window -->
   <div class="chatbot-container" id="chatbot">
@@ -238,6 +287,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 </div>
 
 <style>
+ 
+  .chatbot-gif {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  object-fit: cover;
+  animation: floatIcon 3s ease-in-out infinite;
+}
+
 /* =============== Floating Icon =============== */
 .chatbot-wrapper {
   position: fixed;
@@ -455,3 +513,18 @@ function toggleChat() {
   chatWindow.style.display = chatWindow.style.display === "block" ? "none" : "block";
 }
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener('click', function(event) {
+  const navbar = document.getElementById('mainNav');
+  const toggler = document.querySelector('.navbar-toggler');
+  
+  // If click happens outside the navbar and menu is open → close it
+  if (!navbar.contains(event.target) && !toggler.contains(event.target)) {
+    const bsCollapse = new bootstrap.Collapse(navbar, { toggle: false });
+    bsCollapse.hide();
+  }
+});
+</script>
+
+
